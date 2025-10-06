@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_ZhXt0IeZEemzDO_mbh5h_Q">
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="" xmi:id="_ZhXt0YeZEemzDO_mbh5h_Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_DEV" xmi:id="_lXYk0JaHEemYY70SGuaJog">
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_lXYk0ZaHEemYY70SGuaJog"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_SIT" xmi:id="_lXYk1ZaHEemYY70SGuaJog">
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_lXYk1paHEemYY70SGuaJog"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_lXYk2paHEemYY70SGuaJog">
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_lXYk25aHEemYY70SGuaJog"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_DEV" xmi:id="_ZhXt0oeZEemzDO_mbh5h_Q">
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_ZhXt04eZEemzDO_mbh5h_Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_SIT" xmi:id="_lXYk35aHEemYY70SGuaJog">
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_lXYk4JaHEemYY70SGuaJog"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_30e210d0-11c4-43cf-8c38-d6cf26212ea2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GrfC9H1a6kto2upiGPOQgZF+W80/Auc757BvKGYCaNUxu0R8Ve4ngBLTMbRrlfu6BZTygW5HNzl3&#13;
+FXhjqQdSFQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a56aa605-6433-4244-9de0-d8a14ef8491f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KPGM14/SIPjmcSbGvEzvRK8cFIoVlFDhMGCyx0dPihme5Jl0mZmHhbHdOdOFE3XN0GrDHn2SbLEG&#13;
+fs09KX00uw==</DigestValue></Reference></SignedInfo><SignatureValue>nQoWLk7CTP23rX9PRGzeOrTB4J4PdoGWl90youvPSCYC2oGlmcsHMMKhs9LkOmQiAUlMbqrvegW9&#13;
+pVNlxvpAO8cinBj3bGVvO2OIkDV5pDhOsAtI6NrGxCPJhhLLPZDK1u3pS+7GlYDYqpXmBYrGRFvY&#13;
+ca+EPTVmlCILPQbfOnsynp3LRMi24JbGP/mpQUIPpCI47hHU9kdyjOcdnyzR7gLCBCI3sZWZbMir&#13;
+OozITBst66I/Qw9votQ6FzMi0EfB4s34cmnTGFsh5vYmToeS752fb/yGFa2BWREkfi9o2tO6N/96&#13;
+0EKeEJ0R2tm38UNZJeZUx7g1XTEwh0QImpOtMA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a56aa605-6433-4244-9de0-d8a14ef8491f" Target="#_30e210d0-11c4-43cf-8c38-d6cf26212ea2"><Timestamp>2025-10-06 11:05:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/job_I003_SFDC_TO_SAP_GetCustomerDetails/Customer_Display_input_in_xml_format.xml' outStruct='Structures/Jobs/job_I003_SFDC_TO_SAP_GetCustomerDetails/customer_display_in_json_format.xml' inputRep='172' outputRep='177' nextMap='' inputStructUserName='Customer_Display_input_in_xml_format' outputStructUserName='customer_display_in_json_format' V1='4' name='tHMap_2' incarnation='551'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='186' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ZFMAM_CUSTOMER_DISPLAY'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='34' V200='8' input='true' structElemExists='true' usedCount='70' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OUTPUT'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='35' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EV_CR_EXPOSURE'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='36' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EV_CR_LIMIT_USED'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='37' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EV_CTRL_BLG_BLK'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='38' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EV_CTRL_DLV_BLK'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='39' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EV_CTRL_ORD_BLK'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='40' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EV_CUST_CR_LIMIT'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+    <child t='200' id='41' V200='8' input='true' structElemExists='true' usedCount='102' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TABLES'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='42' V200='8' input='true' structElemExists='true' usedCount='92' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ET_CUST_TAB'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='43' V200='8' input='true' structElemExists='true' usedCount='82' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='44' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUST_NO'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='45' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SALES_ORG'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='46' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DIST_CHANNEL'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='47' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DIVISION'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='48' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ORDER_BLK_CD'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='49' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ORDER_BLK_DESC'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='50' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DELY_BLK_CD'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='51' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DELY_BLK_DESC'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='52' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='BILL_BLK_CD'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='53' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='BILL_BLK_DESC'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='54' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CTRL_BLK_CD'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='55' V200='8' input='true' structElemExists='true' usedCount='10' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CTRL_SLS_BLK_DESC'>
+            <mapNode t='190' idref='1'/>
+          </child>
+        </child>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='217' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/ZFMAM_CUSTOMER_DISPLAY,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='4' V200='8' structElemExists='true' usedCount='203' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='ZFMAM_CUSTOMER_DISPLAY'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='5' V200='8' structElemExists='true' usedCount='78' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='OUTPUT'>
+        <mapNode t='190' idref='1'/>
+        <emit>IsPresent(in$/ZFMAM_CUSTOMER_DISPLAY/OUTPUT)</emit>
+        <child t='200' id='6' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='EV_CR_EXPOSURE'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAM_CUSTOMER_DISPLAY/OUTPUT/EV_CR_EXPOSURE</value>
+        </child>
+        <child t='200' id='7' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='EV_CR_LIMIT_USED'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAM_CUSTOMER_DISPLAY/OUTPUT/EV_CR_LIMIT_USED</value>
+        </child>
+        <child t='200' id='8' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='EV_CTRL_BLG_BLK'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAM_CUSTOMER_DISPLAY/OUTPUT/EV_CTRL_BLG_BLK</value>
+        </child>
+        <child t='200' id='9' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='EV_CTRL_DLV_BLK'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAM_CUSTOMER_DISPLAY/OUTPUT/EV_CTRL_DLV_BLK</value>
+        </child>
+        <child t='200' id='10' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='EV_CTRL_ORD_BLK'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAM_CUSTOMER_DISPLAY/OUTPUT/EV_CTRL_ORD_BLK</value>
+        </child>
+        <child t='200' id='11' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='EV_CUST_CR_LIMIT'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAM_CUSTOMER_DISPLAY/OUTPUT/EV_CUST_CR_LIMIT</value>
+        </child>
+      </child>
+      <child t='200' id='12' V200='8' structElemExists='true' usedCount='126' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='TABLES'>
+        <mapNode t='190' idref='1'/>
+        <emit>IsPresent(in$/ZFMAM_CUSTOMER_DISPLAY/TABLES)</emit>
+        <child t='200' id='13' V200='8' structElemExists='true' usedCount='115' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='ET_CUST_TAB'>
+          <mapNode t='190' idref='1'/>
+          <emit>IsPresent(in$/ZFMAM_CUSTOMER_DISPLAY/TABLES/ET_CUST_TAB)</emit>
+          <child t='200' id='14' V200='8' structElemExists='true' usedCount='104' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='item'>
+            <mapNode t='190' idref='1'/>
+            <loop>SimpleLoop(in$/ZFMAM_CUSTOMER_DISPLAY/TABLES/ET_CUST_TAB/item,{Filter},{Sort Keys},{Contexts})</loop>
+            <child t='200' id='20' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ORDER_BLK_DESC'>
+              <mapNode t='190' idref='1'/>
+              <value>in$/ZFMAM_CUSTOMER_DISPLAY/TABLES/ET_CUST_TAB/item/ORDER_BLK_DESC</value>
+            </child>
+            <child t='200' id='22' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DELY_BLK_DESC'>
+              <mapNode t='190' idref='1'/>
+              <value>in$/ZFMAM_CUSTOMER_DISPLAY/TABLES/ET_CUST_TAB/item/DELY_BLK_DESC</value>
+            </child>
+            <child t='200' id='24' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BILL_BLK_DESC'>
+              <mapNode t='190' idref='1'/>
+              <value>in$/ZFMAM_CUSTOMER_DISPLAY/TABLES/ET_CUST_TAB/item/BILL_BLK_DESC</value>
+            </child>
+            <child t='200' id='26' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CTRL_SLS_BLK_DESC'>
+              <mapNode t='190' idref='1'/>
+              <value>in$/ZFMAM_CUSTOMER_DISPLAY/TABLES/ET_CUST_TAB/item/CTRL_SLS_BLK_DESC</value>
+            </child>
+          </child>
+        </child>
+      </child>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='692' id='56' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/Jobs_job_I003_SFDC_TO_SAP_GetCustomerDetails.xml'/>
+  </inputRepRuntime>
+  <outputRepRuntime t='697' id='57' V697='1' V690='1' padOutput='true'>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' idref='56'/>
+  <child t='165' id='30' V1='4' name='Document Bindings'>
+    <child t='166' id='31' V166='5' docType='1' docReposPath='/SALESFORCE/Sample Data/Jobs/job_I003_SFDC_TO_SAP_GetCustomerDetails/Customer Display input in xml format/Customer Display input in xml format' V1='4' name='in$/ZFMAM_CUSTOMER_DISPLAY'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='32' V166='5' docType='2' docReposPath='/SALESFORCE/Sample Data/Jobs/job_I003_SFDC_TO_SAP_GetCustomerDetails/customer display in json format/customer display in json format' V1='4' name='out$/Root'>
+      <elemNode t='200' idref='3'/>
+    </child>
+  </child>
+  <child t='201' id='33' V1='4' name='Inherits From'>
+  </child>
+</root>

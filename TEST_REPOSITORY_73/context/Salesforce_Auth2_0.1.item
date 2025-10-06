@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_My6WMIQaEeyjZeg-jSLvoQ" xmi:version="2.0">
+  <contextParameter comment="" name="Salesforce_Auth2_sslProperties_keyStorePath" prompt="Salesforce_Auth2_sslProperties_keyStorePath?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WMYQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_timeout" prompt="Salesforce_Auth2_timeout?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="60000" xmi:id="_My6WMoQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth2JwtFlow_subject" prompt="Salesforce_Auth2_oauth2JwtFlow_subject?" promptNeeded="false" repositoryContextId="" type="id_String" value="sf-api@groupe-atlantic.co.uk.ga.gaukmndev" xmi:id="_My6WM4QaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_apiVersion" prompt="Salesforce_Auth2_apiVersion?" promptNeeded="false" repositoryContextId="" type="id_String" value="47.0" xmi:id="_My6WNIQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth2JwtFlow_issuer" prompt="Salesforce_Auth2_oauth2JwtFlow_issuer?" promptNeeded="false" repositoryContextId="" type="id_String" value="3MVG9LzKxa43zqdKJV3z8BUWwawpz.Bl6XE4P5Q1zlgqMPF9SkAvfpK9cLiyVbRImAvtr_pgr8AbM.V3U6Xz_" xmi:id="_My6WNYQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_proxy_host" prompt="Salesforce_Auth2_proxy_host?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WNoQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth_clientSecret" prompt="Salesforce_Auth2_oauth_clientSecret?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_My6WN4QaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth_clientId" prompt="Salesforce_Auth2_oauth_clientId?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WOIQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_clientId" prompt="Salesforce_Auth2_clientId?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WOYQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth_callbackHost" prompt="Salesforce_Auth2_oauth_callbackHost?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WOoQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_userPassword_password" prompt="Salesforce_Auth2_userPassword_password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_My6WO4QaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_sessionDirectory" prompt="Salesforce_Auth2_sessionDirectory?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WPIQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_sslProperties_keyStorePwd" prompt="Salesforce_Auth2_sslProperties_keyStorePwd?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_My6WPYQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth_tokenFile" prompt="Salesforce_Auth2_oauth_tokenFile?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WPoQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_userPassword_securityKey" prompt="Salesforce_Auth2_userPassword_securityKey?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_My6WP4QaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_proxy_port" prompt="Salesforce_Auth2_proxy_port?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="" xmi:id="_My6WQIQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth2JwtFlow_keyStore" prompt="Salesforce_Auth2_oauth2JwtFlow_keyStore?" promptNeeded="false" repositoryContextId="" type="id_String" value="C:/Users/AkashWagh/Downloads/00D1w0000000NP1.jks" xmi:id="_My6WQYQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth_callbackPort" prompt="Salesforce_Auth2_oauth_callbackPort?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="" xmi:id="_My6WQoQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_endpoint" prompt="Salesforce_Auth2_endpoint?" promptNeeded="false" repositoryContextId="" type="id_String" value="https://login.salesforce.com/services/oauth2" xmi:id="_My6WQ4QaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_userPassword_userId" prompt="Salesforce_Auth2_userPassword_userId?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WRIQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth2JwtFlow_audience" prompt="Salesforce_Auth2_oauth2JwtFlow_audience?" promptNeeded="false" repositoryContextId="" type="id_String" value="https://test.salesforce.com" xmi:id="_My6WRYQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth2JwtFlow_certificateAlias" prompt="Salesforce_Auth2_oauth2JwtFlow_certificateAlias?" promptNeeded="false" repositoryContextId="" type="id_String" value="testCertificate" xmi:id="_My6WRoQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth2JwtFlow_expirationTime" prompt="Salesforce_Auth2_oauth2JwtFlow_expirationTime?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="600" xmi:id="_My6WR4QaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_proxy_userPassword_userId" prompt="Salesforce_Auth2_proxy_userPassword_userId?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_My6WSIQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_oauth2JwtFlow_keyStorePassword" prompt="Salesforce_Auth2_oauth2JwtFlow_keyStorePassword?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:Vzm4RdSVYUeDNtm5OrVXKXgofItNLuCE4chjoekON2isrWAHJQ==" xmi:id="_My6WSYQaEeyjZeg-jSLvoQ"/>
+  <contextParameter comment="" name="Salesforce_Auth2_proxy_userPassword_password" prompt="Salesforce_Auth2_proxy_userPassword_password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_My6WSoQaEeyjZeg-jSLvoQ"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f345d1dc-374b-43ff-9986-cacd05ba8636"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CPGMcOt3JP5axr8xwDt2Uocqf6Z32UwhAc5ZLIqxHc3jCADoEVWJj+9vsR3aEltebYTovPuvPjhN&#13;
+0ednhsiIQw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6a9ca527-0dd7-4a82-b627-842f7a36ffea"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xRtS7uYyRu6Jz1+9nu7+HREKcj21Ig3SoA/raoQraUhJWYJSSIUt33bOjDJuV7pPA/jglCMYdyOy&#13;
+3uH13oWPDw==</DigestValue></Reference></SignedInfo><SignatureValue>UxezW4srF0FfYFlhFNL81Vp3eVE/sPygVJQ5t78ZaPkHB/ImZUTaGb9PrxNsW/yMdrv92iwwcXc+&#13;
+2VLrx+/R59GVeiNiQDZhPdnPrjmcWzHV/Oa8Byy3roeSI2VIc3eu46fa5oJiResrlRjId3CkXdCh&#13;
+rc0JvxlHMiYq0j6n2SIAQJY6PMIPe2tYuYgA8I7xFF3deJV6WuuUjekyWue93tO3FSU+8qAL7L8D&#13;
+mK0U/IheLSSoHlWLArB3wGoEB5rwSKlRrT0XuCCfsUdPqFI1JWWVyUqODARTLZg+wU3EVr3xcx6q&#13;
+Dkpz0L0yNMlTUYcRVRPtr9t9YZ5BhlSUUhLWWQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6a9ca527-0dd7-4a82-b627-842f7a36ffea" Target="#_f345d1dc-374b-43ff-9986-cacd05ba8636"><Timestamp>2025-10-06 11:05:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

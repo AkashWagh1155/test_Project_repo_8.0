@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_yFbIwKndEeyRIqDg0Uvb2Q">
+    <contextParameter comment="" name="GADB_Hostname" prompt="GADB_Hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yFbIwandEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Username" prompt="GADB_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yFbIwqndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Password" prompt="GADB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_yFbIw6ndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Port" prompt="GADB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yFbIxKndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_DatabaseName" prompt="GADB_DatabaseName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yFbIxandEeyRIqDg0Uvb2Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_yFbIxqndEeyRIqDg0Uvb2Q">
+    <contextParameter comment="" name="GADB_Hostname" prompt="GADB_Hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.200.150.126" xmi:id="_yFbIx6ndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Username" prompt="GADB_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_prd" xmi:id="_yFbIyKndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Password" prompt="GADB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:hHEVH/pVnZl10TfxwC9HaBxOO9Bw6/BEZ+gClU25ZMe2tg21FDlyeK9Ygef4WrdM" xmi:id="_yFbIyandEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Port" prompt="GADB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_yFbIyqndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_DatabaseName" prompt="GADB_DatabaseName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="gauk_inco_prd1" xmi:id="_yFbIy6ndEeyRIqDg0Uvb2Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_DEV" xmi:id="_yFbIzKndEeyRIqDg0Uvb2Q">
+    <contextParameter comment="" name="GADB_Hostname" prompt="GADB_Hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;10.200.150.144&quot;" xmi:id="_yFbIzandEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Username" prompt="GADB_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Gauri_User&quot;" xmi:id="_yFbIzqndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Password" prompt="GADB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:qtaTilIk8uqSjYjBzmqNw09iHK1cL3RVUoh+SQMMO15ULTe3Vg3VGDSgOI5Q15YBcg==" xmi:id="_yFbIz6ndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Port" prompt="GADB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;3306&quot;" xmi:id="_yFbI0KndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_DatabaseName" prompt="GADB_DatabaseName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;gauk_inco_dev1&quot;" xmi:id="_yFbI0andEeyRIqDg0Uvb2Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_SIT" xmi:id="_yFbI0qndEeyRIqDg0Uvb2Q">
+    <contextParameter comment="" name="GADB_Hostname" prompt="GADB_Hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yFbI06ndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Username" prompt="GADB_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yFbI1KndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Password" prompt="GADB_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_yFbI1andEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_Port" prompt="GADB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yFbI1qndEeyRIqDg0Uvb2Q"/>
+    <contextParameter comment="" name="GADB_DatabaseName" prompt="GADB_DatabaseName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yFbI16ndEeyRIqDg0Uvb2Q"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f7a16cce-77f6-4892-b4c0-eaad0c9666d8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cKu4SLIz8JD6Fx8Gcy92yntS20GdhKQZ7+CEPXnfL/IhxZyjK7WKyB/qgJDDjlacl9TkbPPaLn/D&#13;
+/dQNS/ygRA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9c1ebea2-3b85-4125-9b94-b5f4ae2819f3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2+piBpbhs31YD2qdjB6m+ud/k7S0ZWeo/OcHIXV0JLlS8t1SEWXea1YvJKlmGJm3C+FCPjGyzmO7&#13;
+CXQAtGoyVA==</DigestValue></Reference></SignedInfo><SignatureValue>XriYe4AUPIGHrBjYYDtcuyABUz2eUSjAntbJEFBTLpuVVjYLL9r1lquY2Al5SXrEJXbVY/L1Kza+&#13;
+iR+Prir/M8o7rpLp9QwGvuNa/KX9pYg3CGg1h4tF3CJEnLYquDYy91o8ddjXBSr6t8KkqlsoBphL&#13;
+WZFkoj7GkdwiLJAzS+ik+ilsIrTBW+OXhN2ZRXA/z4p2k23QxmUXQuclGvbk/6G36oVP0oPpbvwP&#13;
+Ke4q2mrp93vIGAIPiYk2B6dTjBIx74XU/GMCxoeKjuJ5XL8/+382Dsnu0MUnHGDHK7sQgn/ca6tE&#13;
+CdH7GgR2x5RUXJ/+8Vy1WR3mM4yGQuHu/m2W6g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9c1ebea2-3b85-4125-9b94-b5f4ae2819f3" Target="#_f7a16cce-77f6-4892-b4c0-eaad0c9666d8"><Timestamp>2025-10-06 11:05:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

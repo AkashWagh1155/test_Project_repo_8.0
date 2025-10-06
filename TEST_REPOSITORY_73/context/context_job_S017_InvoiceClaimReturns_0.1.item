@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_usgY8Om8Eem7fODTjsmVWA">
+    <contextParameter comment="" name="ClaimReturns_FilePath" prompt="ClaimReturns_FilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_usgY8em8Eem7fODTjsmVWA"/>
+    <contextParameter comment="" name="ClaimReturns_LogFilePath" prompt="ClaimReturns_LogFilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_cLYxsOm9Eem7fODTjsmVWA"/>
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_jEDU0OnMEem7fODTjsmVWA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_usgY8um8Eem7fODTjsmVWA">
+    <contextParameter comment="" name="ClaimReturns_FilePath" prompt="ClaimReturns_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Finance\DGFiles\ClaimFileReturns" xmi:id="_usgY8-m8Eem7fODTjsmVWA"/>
+    <contextParameter comment="" name="ClaimReturns_LogFilePath" prompt="ClaimReturns_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Finance\DGFiles\ClaimFileReturns\Log" xmi:id="_cLYxsem9Eem7fODTjsmVWA"/>
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_S017_InvoiceClaimReturn/" xmi:id="_jEDU0enMEem7fODTjsmVWA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_DEV" xmi:id="_usgY9Om8Eem7fODTjsmVWA">
+    <contextParameter comment="" name="ClaimReturns_FilePath" prompt="ClaimReturns_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\DGFiles\DEV\ClaimFileReturns" xmi:id="_usgY9em8Eem7fODTjsmVWA"/>
+    <contextParameter comment="" name="ClaimReturns_LogFilePath" prompt="ClaimReturns_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\DGFiles\DEV\ClaimFileReturns\Log" xmi:id="_cLYxsum9Eem7fODTjsmVWA"/>
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S017_InvoiceClaimReturn/" xmi:id="_jEDU0unMEem7fODTjsmVWA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_SIT" xmi:id="_usgY9um8Eem7fODTjsmVWA">
+    <contextParameter comment="" name="ClaimReturns_FilePath" prompt="ClaimReturns_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\DGFiles\QAS\ClaimFileReturns" xmi:id="_usgY9-m8Eem7fODTjsmVWA"/>
+    <contextParameter comment="" name="ClaimReturns_LogFilePath" prompt="ClaimReturns_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\DGFiles\QAS\ClaimFileReturns\Log" xmi:id="_cLYxs-m9Eem7fODTjsmVWA"/>
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/QAS/job_S017_InvoiceClaimReturn/" xmi:id="_jEDU0-nMEem7fODTjsmVWA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7e121ec8-1353-497f-9524-71a62be971b2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3OL0BJXnIP0tCYVpSizlcXGeIwdozBYtIh/e9VtfXOL0ZrBYlrk5mhkvGdRuoesYhfx+SnAeivE6&#13;
+3/j0WYzyYQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f6502349-37c8-44d4-a1d0-5c8682bf1b01"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+myaiWPIZNeMnQaPjZWMX3y1LnKpY6veJYTJGuriqRvV76TLX5oU6R4Ww1eA0c0RtzrI0eHBZ43E&#13;
+uqEdXUV6aQ==</DigestValue></Reference></SignedInfo><SignatureValue>ke0v8fZxh7HVZsvSsjSNTtpJ4q/VO6LIeo8UO/JxKs0N9+y/insvP4ox1LEf8VbVAaBukWuj1QCk&#13;
+tweR0p1ptfvVFnXk4c5UkjsPh1y776MxJoayI6UZGijoT9VBDm9dhBbHzpdtmYXez2WpUj5PCtEP&#13;
+VwKyCtHatTeuRqJdkeF+/H345aRhb5B5cfemQ5JLBUg0NzIueIORWhDG84NCe9lJVXnmgpQUp52r&#13;
+GpCZTeJswkwCnQ7DSObaoZYk22X9KQXBrGhCACyMPStOm/wZcoGXljW80+VrbGgWwoXaRm4r+Rpc&#13;
+/7/4CSPPrz4MgiABS5pKKl1RnZnMrg9YLEzZiA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f6502349-37c8-44d4-a1d0-5c8682bf1b01" Target="#_7e121ec8-1353-497f-9524-71a62be971b2"><Timestamp>2025-10-06 11:05:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

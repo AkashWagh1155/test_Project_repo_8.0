@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/DEBMAS_NEW_IDOC_STRUCTURE/IDocs/DEBMAS06.ZEXDMAS6.xml' outStruct='Structures/DEBMAS_NEW_IDOC_STRUCTURE/IDocs/DEBMAS06.ZEXDMAS6.xml' inputRep='181' outputRep='181' nextMap='' inputStructUserName='DEBMAS06.ZEXDMAS6' outputStructUserName='DEBMAS06.ZEXDMAS6' V1='4' name='tHMap_1' incarnation='55'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DEBMAS06.ZEXDMAS6' description='Extension for DEBMAS06'>
+    <mapNode t='190' idref='1'/>
+  </inputMapElem>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='DEBMAS06.ZEXDMAS6' description='Extension for DEBMAS06'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/DEBMAS06.ZEXDMAS6,{Filter},{Sort Keys},{Contexts})</loop>
+  </outputMapElem>
+  <inputRepRuntime t='704' id='4' V704='1' idoctyp='DEBMAS06' cimtyp='ZEXDMAS6' V690='1' encoding='UTF-8'>
+  </inputRepRuntime>
+  <outputRepRuntime t='704' idref='4'/>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' id='5' V692='1' V690='1'>
+  </inputXmlRepRuntime>
+  <outputXmlRepRuntime t='692' idref='5'/>
+  <child t='165' id='4' V1='4' name='Document Bindings'>
+    <child t='166' id='5' V166='5' docType='1' V1='4' name='in$/DEBMAS06.ZEXDMAS6'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='6' V166='5' docType='2' V1='4' name='out$/DEBMAS06.ZEXDMAS6'>
+      <elemNode t='200' idref='3'/>
+    </child>
+  </child>
+  <child t='201' id='7' V1='4' name='Inherits From'>
+  </child>
+</root>

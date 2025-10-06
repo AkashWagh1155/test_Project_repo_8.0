@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_Egf1oBENEeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_Filepath" prompt="Temp_Filepath?" promptNeeded="false" type="id_String" value="" xmi:id="_SCKD0BENEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_LogFilePath" prompt="EngineerProductDetails_LogFilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_dFfOYBENEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_FilePath" prompt="EngineerProductDetails_FilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_m9lU4BENEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="FTP_Port" prompt="FTP_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_RAwvYDIWEequOamI1Pe76w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_SIT" xmi:id="_RIbWwBEeEeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_Filepath" prompt="Temp_Filepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/QAS/job_S019_UpdateProductItemQuantity/" xmi:id="_RIbWwhEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_LogFilePath" prompt="EngineerProductDetails_LogFilePath?" promptNeeded="false" type="id_String" value="SALESFORCE\ENGINEERINVENTORYRESET\QAS\LOG" xmi:id="_RIbWwxEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_FilePath" prompt="EngineerProductDetails_FilePath?" promptNeeded="false" type="id_String" value="SALESFORCE\ENGINEERINVENTORYRESET\QAS\EXTRACT" xmi:id="_RIbWxBEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="FTP_Port" prompt="FTP_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_RAwvYTIWEequOamI1Pe76w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_RIbWxhEeEeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_Filepath" prompt="Temp_Filepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_S019_UpdateProductItemQuantity/" xmi:id="_RIbWyBEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_LogFilePath" prompt="EngineerProductDetails_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Spares\ENGINEERINVENTORYRESET\LOG" xmi:id="_RIbWyREeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_FilePath" prompt="EngineerProductDetails_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Spares\ENGINEERINVENTORYRESET\EXTRACT" xmi:id="_RIbWyhEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="FTP_Port" prompt="FTP_Port?" promptNeeded="false" type="id_String" value="22" xmi:id="_RAwvYjIWEequOamI1Pe76w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_DEV" xmi:id="_RIbWzBEeEeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_Filepath" prompt="Temp_Filepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S019_UpdateProductItemQuantity/" xmi:id="_RIbWzhEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_LogFilePath" prompt="EngineerProductDetails_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\ENGINEERINVENTORYRESET\DEV\LOG" xmi:id="_RIbWzxEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_FilePath" prompt="EngineerProductDetails_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\ENGINEERINVENTORYRESET\DEV\EXTRACT" xmi:id="_RIbW0BEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="FTP_Port" prompt="FTP_Port?" promptNeeded="false" type="id_String" value="22" xmi:id="_RAwvYzIWEequOamI1Pe76w"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_SIT" xmi:id="_RIbW0hEeEeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_Filepath" prompt="Temp_Filepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/QAS/job_S019_UpdateProductItemQuantity/" xmi:id="_RIbW1BEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_LogFilePath" prompt="EngineerProductDetails_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\ENGINEERINVENTORYRESET\QAS\LOG" xmi:id="_RIbW1REeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerProductDetails_FilePath" prompt="EngineerProductDetails_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\ENGINEERINVENTORYRESET\QAS\EXTRACT" xmi:id="_RIbW1hEeEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="FTP_Port" prompt="FTP_Port?" promptNeeded="false" type="id_String" value="22" xmi:id="_RAwvZDIWEequOamI1Pe76w"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f101103a-5ca2-406b-981d-3bb4405a5a85"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IyWGQb1D4N12T+peVjRkqcnyNRB577pkF9u7AySOuaLT8md58XOEdxdFMywH3lnazzfJAzrELY2u&#13;
+3qC4nLk9tQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_05830a85-0358-4fbf-a65d-bd61876d0e2f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Jjnh0yUtL9oPBacgy1Fo+H5Y3y8KzPVtI/nmlo0p9wKj8q27pO9APdYMhX11bZGK0afdXheECeZs&#13;
+Gt3H0pTuHA==</DigestValue></Reference></SignedInfo><SignatureValue>LK2lvEH5a3jHu8Wn64LkberF7YMJsnMQ8iT5WYtgltFWG86p+kTYd60aSekaYo+AIs7YSDoB10OS&#13;
+Ex2d+kuoGIKwEOWmDfOrH/czkfgx0rBHZaiFJzV1ryhHpRebhKINi4ZfJQtOfjteCm5XalV0QUAG&#13;
+bzKX3rEs2CS5XcVBAQsQNSdTqwnxEO6BOnNlBTv3we5Bos1APW/voeg6QO58XmsPFEbnR+TIyc/L&#13;
+a6NcdHWOlhkBirzu9r4N5OKrzopcEajp6+Pd5IAX8NA6mrpFrIKkaLvPrMX67AWH1TLuqgo7uVh9&#13;
+031og0fjwFDPLLT9m3qENMHm3voPLJAMFaI7dQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_05830a85-0358-4fbf-a65d-bd61876d0e2f" Target="#_f101103a-5ca2-406b-981d-3bb4405a5a85"><Timestamp>2025-10-06 11:05:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

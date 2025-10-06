@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x16ad416d6af' V1='4' name='DELVRY05.ZDELVRY05' incarnation='277'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DELVRY05.ZDELVRY05' description='Custom extension to populate additional order related data'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' inheritsFromIncarnation='40' inheritsFromTimestamp='0x16ad416d651' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40' description='Control record' checksumValid='true' checksum='gsWJZNQixCwcYEbVJC2/NLO3Yz8='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='4' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/EDI_DC40.xml' V281='13' V1='4' name='EDI_DC40'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EDI_DC40' description='Control record'>
+        <delimTerminator>\n</delimTerminator>
+      </savedOrigCopyAtInheritsFrom>
+      <delimTerminator>\n</delimTerminator>
+    </child>
+    <child t='167' id='6' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='9999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL20003' description='Delivery header' checksumValid='true' checksum='uGyekbqWDmQnE3GSjXdFHNufDIU='>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='7' V167='21' inheritsFromIncarnation='57' inheritsFromTimestamp='0x16ad416d660' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL20003.xml' V281='13' V1='4' name='E2EDL20003' description='Delivery header' checksumValid='true' checksum='qZcvU7avyQhllxdJwjksoBJsRLw='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='8' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL20003.xml' V281='13' V1='4' name='E2EDL20003'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL20003' description='Delivery header'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='10' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x16ad416d660' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/Z2EDL20000.xml' V281='13' V1='4' name='Z2EDL20000' description='Custom segment for storing order related data' checksumValid='true' checksum='OOcUyjzX1ahcTFwg2CFFcBDjstM='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='11' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/Z2EDL20000.xml' V281='13' V1='4' name='Z2EDL20000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Z2EDL20000' description='Custom segment for storing order related data'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='13' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x16ad416d660' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL20RET2000.xml' V281='13' V1='4' name='E2EDL20RET2000' description='Delivery header messages' checksumValid='true' checksum='IG+I3GhLcnPKdkt+v+LXGfZjFq0='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='14' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL20RET2000.xml' V281='13' V1='4' name='E2EDL20RET2000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL20RET2000' description='Delivery header messages'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='16' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL22.xml' V281='13' V1='4' name='E2EDL22' description='Delivery Header Descriptions' checksumValid='true' checksum='dR+rWxHQ+ZOklxf3zPheV0s5tWM='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='17' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL22.xml' V281='13' V1='4' name='E2EDL22'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL22' description='Delivery Header Descriptions'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='19' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL21' description='Delivery Header Additional Data'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='20' V167='21' inheritsFromIncarnation='26' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL21.xml' V281='13' V1='4' name='E2EDL21' description='Delivery Header Additional Data' checksumValid='true' checksum='nInMWzw1OwsMj/uTkIKW7KJqTpk='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='21' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL21.xml' V281='13' V1='4' name='E2EDL21'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='22' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL21' description='Delivery Header Additional Data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='23' V167='21' inheritsFromIncarnation='22' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL23.xml' V281='13' V1='4' name='E2EDL23' description='Deliv.Header Addit.Data Descriptions' checksumValid='true' checksum='4FgEq9kOX+Fdzdq+OQeJYh9o2Lk='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='24' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL23.xml' V281='13' V1='4' name='E2EDL23'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='25' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL23' description='Deliv.Header Addit.Data Descriptions'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='26' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL51000.xml' V281='13' V1='4' name='E2EDL51000' description='Delivery Header External Release Number' checksumValid='true' checksum='vpGYhulu1WqlHClYTqGNsbIkxlA='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='27' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL51000.xml' V281='13' V1='4' name='E2EDL51000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL51000' description='Delivery Header External Release Number'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='29' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD01001.xml' V281='13' V1='4' name='E2EDD01001' description='DG header data (delivery)' checksumValid='true' checksum='xwCHWoIFJDw3af6z1MXAAsVukoo='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='30' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD01001.xml' V281='13' V1='4' name='E2EDD01001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='31' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD01001' description='DG header data (delivery)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='32' V167='21' inheritsFromIncarnation='35' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL18.xml' V281='13' V1='4' name='E2EDL18' description='Controlling (Delivery)' checksumValid='true' checksum='Z8QXCxEllzqD7PBa2+Vi0tGMzIg='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='33' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL18.xml' V281='13' V1='4' name='E2EDL18'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='34' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL18' description='Controlling (Delivery)'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='35' V167='21' inheritsFromIncarnation='19' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL55000.xml' V281='13' V1='4' name='E2EDL55000' description='Reference Number' checksumValid='true' checksum='MzLdPEkyPbuLuLaxs7aF4CeGOIE='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='36' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL55000.xml' V281='13' V1='4' name='E2EDL55000'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='37' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL55000' description='Reference Number'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+      <child t='167' id='38' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2ADRM1001' description='Central Address Segment Group, Main Segment'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='39' V167='21' inheritsFromIncarnation='88' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2ADRM1001.xml' V281='13' V1='4' name='E2ADRM1001' description='Central Address Segment Group, Main Segment' checksumValid='true' checksum='iK+DK5GBJ+a88NASyI0FwMSKkwE='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='40' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2ADRM1001.xml' V281='13' V1='4' name='E2ADRM1001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='41' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2ADRM1001' description='Central Address Segment Group, Main Segment'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='42' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMaxTimes='10' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2ADRE1000.xml' V281='13' V1='4' name='E2ADRE1000' description='Central Address Segment Group, Additional Data Segment' checksumValid='true' checksum='UEYXAarHPb5CWbAx9Y7XfLulsvI='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='43' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2ADRE1000.xml' V281='13' V1='4' name='E2ADRE1000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2ADRE1000' description='Central Address Segment Group, Additional Data Segment'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='45' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDT13001' description='Deadline (delivery)'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='46' V167='21' inheritsFromIncarnation='45' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDT13001.xml' V281='13' V1='4' name='E2EDT13001' description='Deadline (delivery)' checksumValid='true' checksum='7wlr2L5/RSlRZjhZK88qWpctUJQ='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='47' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDT13001.xml' V281='13' V1='4' name='E2EDT13001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='48' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDT13001' description='Deadline (delivery)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='49' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL40000' description='Points (delivery deadlines)'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='50' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL40000.xml' V281='13' V1='4' name='E2EDL40000' description='Points (delivery deadlines)' checksumValid='true' checksum='BAAUahjsBtJoEJKdWUzTZHzgaVY='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='51' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL40000.xml' V281='13' V1='4' name='E2EDL40000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='52' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL40000' description='Points (delivery deadlines)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='53' V167='21' inheritsFromIncarnation='88' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2ADRM2001.xml' V281='13' V1='4' name='E2ADRM2001' description='Central Address Segment Group, Main Segment' checksumValid='true' checksum='WAEn8RbKQ69vStrigJQhCjVISf0='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='54' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2ADRM2001.xml' V281='13' V1='4' name='E2ADRM2001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='55' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2ADRM2001' description='Central Address Segment Group, Main Segment'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='56' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2TXTH0001' description='General Text Header'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='57' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d670' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTH0001.xml' V281='13' V1='4' name='E2TXTH0001' description='General Text Header' checksumValid='true' checksum='i0S0RJ4FSinpIsCJj7TH1c0NS1k='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='58' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTH0001.xml' V281='13' V1='4' name='E2TXTH0001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='59' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2TXTH0001' description='General Text Header'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='60' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTP0.xml' V281='13' V1='4' name='E2TXTP0' description='General Text Segment' checksumValid='true' checksum='R/1UuQrdLg+SzvinwfshyzfzCXM='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='61' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTP0.xml' V281='13' V1='4' name='E2TXTP0'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='62' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2TXTP0' description='General Text Segment'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='63' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2TXTH8001' description='General Text Header'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='64' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTH8001.xml' V281='13' V1='4' name='E2TXTH8001' description='General Text Header' checksumValid='true' checksum='Q/qQnNq5Kr7TRMkcdC+T+FCt8aw='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='65' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTH8001.xml' V281='13' V1='4' name='E2TXTH8001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='66' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2TXTH8001' description='General Text Header'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='67' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTP8.xml' V281='13' V1='4' name='E2TXTP8' description='General Text Segment' checksumValid='true' checksum='YiTIVeoe4h1NT3OKbWwmAbZRbPY='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='68' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTP8.xml' V281='13' V1='4' name='E2TXTP8'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='69' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2TXTP8' description='General Text Segment'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='70' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDDH2001' description='DG text header (delivery header)'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='71' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDH2001.xml' V281='13' V1='4' name='E2EDDH2001' description='DG text header (delivery header)' checksumValid='true' checksum='ByFQBJQWCYIcxUobtV9teDUpLlc='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='72' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDH2001.xml' V281='13' V1='4' name='E2EDDH2001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='73' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDDH2001' description='DG text header (delivery header)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='74' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDP2000.xml' V281='13' V1='4' name='E2EDDP2000' description='DG text lines (delivery header)' checksumValid='true' checksum='Esj1NWkWDvBCBUAc5Ml/t32yQxg='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='75' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDP2000.xml' V281='13' V1='4' name='E2EDDP2000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='76' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDDP2000' description='DG text lines (delivery header)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='77' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL33001' description='Export Data Delivery Header'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='78' V167='21' inheritsFromIncarnation='35' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL33001.xml' V281='13' V1='4' name='E2EDL33001' description='Export Data Delivery Header' checksumValid='true' checksum='IMLsOR7ZtmvnQtHsw3vdLjTegc8='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='79' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL33001.xml' V281='13' V1='4' name='E2EDL33001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='80' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL33001' description='Export Data Delivery Header'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='81' V167='21' inheritsFromIncarnation='26' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL34.xml' V281='13' V1='4' name='E2EDL34' description='Export Data Delivery Header Descriptions' checksumValid='true' checksum='36to+ttfxO/p3en8BxM1JiUloQc='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='82' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL34.xml' V281='13' V1='4' name='E2EDL34'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='83' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL34' description='Export Data Delivery Header Descriptions'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='84' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL28' description='Routes'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='85' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL28.xml' V281='13' V1='4' name='E2EDL28' description='Routes' checksumValid='true' checksum='Oh4JoGgGplw1DxKcFFQFebYGzls='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='86' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL28.xml' V281='13' V1='4' name='E2EDL28'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='87' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL28' description='Routes'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='88' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL29.xml' V281='13' V1='4' name='E2EDL29' description='Routes Descriptions' checksumValid='true' checksum='OsOE68/jcKW/dQg5CK06W9GYQOg='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='89' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL29.xml' V281='13' V1='4' name='E2EDL29'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='90' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL29' description='Routes Descriptions'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='91' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL30' description='Route Stages'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='92' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL30.xml' V281='13' V1='4' name='E2EDL30' description='Route Stages' checksumValid='true' checksum='65vW94rFE4oWAXZETcLrrFx7Dj4='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='93' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL30.xml' V281='13' V1='4' name='E2EDL30'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='94' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL30' description='Route Stages'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='95' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL31.xml' V281='13' V1='4' name='E2EDL31' description='Route Stage Descriptions'>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='96' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL31.xml' V281='13' V1='4' name='E2EDL31'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='97' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL31' description='Route Stage Descriptions'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='98' V167='21' V283='2' occurMaxTimes='9' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL32' description='Route Stage Point'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='99' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL32.xml' V281='13' V1='4' name='E2EDL32' description='Route Stage Point' checksumValid='true' checksum='GtFDv3R+XWalCoQmITeckxnaG00='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='100' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL32.xml' V281='13' V1='4' name='E2EDL32'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='101' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL32' description='Route Stage Point'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+            <child t='167' id='102' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL45000.xml' V281='13' V1='4' name='E2EDL45000' description='Points descriptions' checksumValid='true' checksum='UeZDMV2fSVZajvlbLE2TR5I4HrQ='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='103' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL45000.xml' V281='13' V1='4' name='E2EDL45000'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='104' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL45000' description='Points descriptions'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+            <child t='167' id='105' V167='21' inheritsFromIncarnation='88' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2ADRM3001.xml' V281='13' V1='4' name='E2ADRM3001' description='Central Address Segment Group, Main Segment' checksumValid='true' checksum='mupP9awZ4hVNZbAdLSOyZ5aL8dE='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='106' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2ADRM3001.xml' V281='13' V1='4' name='E2ADRM3001'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='107' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2ADRM3001' description='Central Address Segment Group, Main Segment'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='108' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL47001' description='Express Delivery Company&apos;s Tracking Connection Data'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='109' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL47001.xml' V281='13' V1='4' name='E2EDL47001' description='Express Delivery Company&apos;s Tracking Connection Data' checksumValid='true' checksum='vt0pSunauLLqCG3EuHQD3Xf5udM='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='110' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL47001.xml' V281='13' V1='4' name='E2EDL47001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='111' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL47001' description='Express Delivery Company&apos;s Tracking Connection Data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='112' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL48000.xml' V281='13' V1='4' name='E2EDL48000' description='Express Delivery Company - Additional Data' checksumValid='true' checksum='4an5p43c+2J499027qzLl6qia7M='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='113' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL48000.xml' V281='13' V1='4' name='E2EDL48000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='114' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL48000' description='Express Delivery Company - Additional Data'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='115' V167='21' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL24007' description='Delivery Item' checksumValid='true' checksum='lhjEv0KdzZF052rQBdVD1ko1t84='>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='116' V167='21' inheritsFromIncarnation='110' inheritsFromTimestamp='0x16ad416d680' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL24007.xml' V281='13' V1='4' name='E2EDL24007' description='Delivery Item' checksumValid='true' checksum='NIJts16DA2D3PiY+I3Do908wua0='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='117' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL24007.xml' V281='13' V1='4' name='E2EDL24007'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='118' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL24007' description='Delivery Item'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='119' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL56000.xml' V281='13' V1='4' name='E2EDL56000' description='List of allowed carriers'>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='120' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL56000.xml' V281='13' V1='4' name='E2EDL56000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='121' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL56000' description='List of allowed carriers'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='122' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL24RET2000.xml' V281='13' V1='4' name='E2EDL24RET2000' description='Delivery item messages' checksumValid='true' checksum='eknnlsAJvU7vmc71XmJU8dogRoo='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='123' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL24RET2000.xml' V281='13' V1='4' name='E2EDL24RET2000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='124' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL24RET2000' description='Delivery item messages'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='125' V167='21' inheritsFromIncarnation='22' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL25.xml' V281='13' V1='4' name='E2EDL25' description='Delivery Item Descriptions' checksumValid='true' checksum='QvJdOx6D57aspgU87ZsKBK00PF0='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='126' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL25.xml' V281='13' V1='4' name='E2EDL25'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='127' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL25' description='Delivery Item Descriptions'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='128' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL26002' description='Delivery Item Additional Data'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='129' V167='21' inheritsFromIncarnation='68' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL26002.xml' V281='13' V1='4' name='E2EDL26002' description='Delivery Item Additional Data' checksumValid='true' checksum='moOqgArXUS2JZp4elv9yr2iqsgk='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='130' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL26002.xml' V281='13' V1='4' name='E2EDL26002'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='131' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL26002' description='Delivery Item Additional Data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='132' V167='21' inheritsFromIncarnation='28' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL27001.xml' V281='13' V1='4' name='E2EDL27001' description='Delivery Item Additional Data Descriptions' checksumValid='true' checksum='LukNqsuhkdYaRaB9u7WqrdE73tk='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='133' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL27001.xml' V281='13' V1='4' name='E2EDL27001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='134' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL27001' description='Delivery Item Additional Data Descriptions'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='135' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL52001.xml' V281='13' V1='4' name='E2EDL52001' description='Delivery Item External Release Number' checksumValid='true' checksum='i1XEa/jbsLyaB1D3Cy2XSQxvGo8='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='136' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL52001.xml' V281='13' V1='4' name='E2EDL52001'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='137' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL52001' description='Delivery Item External Release Number'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='138' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL53000.xml' V281='13' V1='4' name='E2EDL53000' description='Delivery Item POD' checksumValid='true' checksum='bUQPkYHG6VF5y2Q2GPgwpKELclo='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='139' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL53000.xml' V281='13' V1='4' name='E2EDL53000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='140' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL53000' description='Delivery Item POD'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='141' V167='21' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDD10004' description='DG item data 1 (delivery)' checksumValid='true' checksum='hGgOMNFihpN66XNuY1SSqew2qgQ='>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='142' V167='21' inheritsFromIncarnation='159' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD10004.xml' V281='13' V1='4' name='E2EDD10004' description='DG item data 1 (delivery)' checksumValid='true' checksum='EPWzsaEeX1CN6v45BBV+3cXzFK8='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='143' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD10004.xml' V281='13' V1='4' name='E2EDD10004'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='144' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD10004' description='DG item data 1 (delivery)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='145' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD11000.xml' V281='13' V1='4' name='E2EDD11000' description='DG item data descriptions 1 (delivery)' checksumValid='true' checksum='GjejoUTyRlPqLbJw0aa9cJeIba8='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='146' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD11000.xml' V281='13' V1='4' name='E2EDD11000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='147' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD11000' description='DG item data descriptions 1 (delivery)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='148' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD15000.xml' V281='13' V1='4' name='E2EDD15000' description='DG item data descriptions 2 (delivery)' checksumValid='true' checksum='eXt3QQ1Wj13gVeD0K73Twrl8XAI='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='149' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD15000.xml' V281='13' V1='4' name='E2EDD15000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='150' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD15000' description='DG item data descriptions 2 (delivery)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='151' V167='21' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDD12004' description='DG item data 2 (delivery)'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='152' V167='21' inheritsFromIncarnation='104' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD12004.xml' V281='13' V1='4' name='E2EDD12004' description='DG item data 2 (delivery)' checksumValid='true' checksum='4oisxiaze7KqHYi5mYKbx0MTOYQ='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='153' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD12004.xml' V281='13' V1='4' name='E2EDD12004'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='154' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD12004' description='DG item data 2 (delivery)'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+            <child t='167' id='155' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD16001.xml' V281='13' V1='4' name='E2EDD16001' description='DG item data descriptions 3 (delivery)' checksumValid='true' checksum='quh8cEPLHSoKcAUdQLwq68k2YRU='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='156' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD16001.xml' V281='13' V1='4' name='E2EDD16001'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='157' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD16001' description='DG item data descriptions 3 (delivery)'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+          <child t='167' id='158' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD13000.xml' V281='13' V1='4' name='E2EDD13000' description='Hazard notes on item level (delivery)' checksumValid='true' checksum='+O+BEvx523k24HcsEmJmHnsgNNo='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='159' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD13000.xml' V281='13' V1='4' name='E2EDD13000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='160' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD13000' description='Hazard notes on item level (delivery)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='161' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDDH3001' description='DG text header (delivery item)'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='162' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDH3001.xml' V281='13' V1='4' name='E2EDDH3001' description='DG text header (delivery item)' checksumValid='true' checksum='ZoWTfESV8dWpOJIEMtm1zhWaBvg='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='163' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDH3001.xml' V281='13' V1='4' name='E2EDDH3001'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='164' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDDH3001' description='DG text header (delivery item)'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+            <child t='167' id='165' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x16ad416d68f' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDP3000.xml' V281='13' V1='4' name='E2EDDP3000' description='DG text lines (delivery item)' checksumValid='true' checksum='qfCVqMY2dZXvERQUC4yDMSyoqgw='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='166' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDP3000.xml' V281='13' V1='4' name='E2EDDP3000'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='167' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDDP3000' description='DG text lines (delivery item)'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+          <child t='167' id='168' V167='21' inheritsFromIncarnation='40' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD17000.xml' V281='13' V1='4' name='E2EDD17000' description='Dangerous Goods Item Data Product Release' checksumValid='true' checksum='KpXOTm1CVWCh08Fl6lkXytCg/Zc='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='169' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD17000.xml' V281='13' V1='4' name='E2EDD17000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='170' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD17000' description='Dangerous Goods Item Data Product Release'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='171' V167='21' inheritsFromIncarnation='26' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD18000.xml' V281='13' V1='4' name='E2EDD18000' description='Dangerous Goods Item Data Transport Restriction' checksumValid='true' checksum='P/1XOGUgZpGY1wh9thVYaWICuro='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='172' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD18000.xml' V281='13' V1='4' name='E2EDD18000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='173' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD18000' description='Dangerous Goods Item Data Transport Restriction'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='174' V167='21' V283='2' occurMaxTimes='999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDDH4000' description='Dang.Goods TextHeader (Fields from Dang.Goods Master Tables)'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='175' V167='21' inheritsFromIncarnation='24' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDH4000.xml' V281='13' V1='4' name='E2EDDH4000' description='Dang.Goods TextHeader (Fields from Dang.Goods Master Tables)' checksumValid='true' checksum='K6aGb/FINKWBZMqj9+LoXj9W8RQ='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='176' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDH4000.xml' V281='13' V1='4' name='E2EDDH4000'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='177' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDDH4000' description='Dang.Goods TextHeader (Fields from Dang.Goods Master Tables)'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+            <child t='167' id='178' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDP4000.xml' V281='13' V1='4' name='E2EDDP4000' description='Dang.Goods Text Items (Fields from Dang.Goods Master Tables)' checksumValid='true' checksum='+So99nkjEo4Rhvo7Iarmmr2tGf4='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='179' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDDP4000.xml' V281='13' V1='4' name='E2EDDP4000'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='180' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDDP4000' description='Dang.Goods Text Items (Fields from Dang.Goods Master Tables)'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+        </child>
+        <child t='167' id='181' V167='21' inheritsFromIncarnation='22' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD14000.xml' V281='13' V1='4' name='E2EDD14000' description='DG control data (delivery item)' checksumValid='true' checksum='+Ic0Ox7OOuVl9LZlh52T5+buHTE='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='182' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDD14000.xml' V281='13' V1='4' name='E2EDD14000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='183' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD14000' description='DG control data (delivery item)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='184' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL19.xml' V281='13' V1='4' name='E2EDL19' description='Controlling (Delivery Item)' checksumValid='true' checksum='Qe5otMferYvmod4Ayf1CBl/OzaY='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='185' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL19.xml' V281='13' V1='4' name='E2EDL19'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='186' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL19' description='Controlling (Delivery Item)'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='187' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL11.xml' V281='13' V1='4' name='E2EDL11' description='Serial Number'>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='188' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL11.xml' V281='13' V1='4' name='E2EDL11'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='189' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL11' description='Serial Number'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='190' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EPC01000' description='Delivery Item EPC Segment'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='191' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EPC01000.xml' V281='13' V1='4' name='E2EPC01000' description='Delivery Item EPC Segment' checksumValid='true' checksum='u/EB2VN63ZmwX+qCJlEHYTYxXm0='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='192' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EPC01000.xml' V281='13' V1='4' name='E2EPC01000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='193' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EPC01000' description='Delivery Item EPC Segment'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='194' V167='21' inheritsFromIncarnation='33' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2IDC01000.xml' V281='13' V1='4' name='E2IDC01000' description='EPC components' checksumValid='true' checksum='m6wvr0rlTJzmSHabgJAmqJtUCoY='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='195' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2IDC01000.xml' V281='13' V1='4' name='E2IDC01000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='196' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2IDC01000' description='EPC components'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='197' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL15.xml' V281='13' V1='4' name='E2EDL15' description='Batch Characteristic' checksumValid='true' checksum='fS/hwoTTCo7dM2WnfXuNeBlBkJI='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='198' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL15.xml' V281='13' V1='4' name='E2EDL15'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='199' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL15' description='Batch Characteristic'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='200' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL35' description='Export Data Delivery Item'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='201' V167='21' inheritsFromIncarnation='27' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL35.xml' V281='13' V1='4' name='E2EDL35' description='Export Data Delivery Item' checksumValid='true' checksum='qgXikoupJWNRE6R56eDAIe7hTW0='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='202' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL35.xml' V281='13' V1='4' name='E2EDL35'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='203' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL35' description='Export Data Delivery Item'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='204' V167='21' inheritsFromIncarnation='25' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL36.xml' V281='13' V1='4' name='E2EDL36' description='Export Data Delivery Item Descriptions' checksumValid='true' checksum='fW/7DGQpMmnDNLZreBpITgsQsGc='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='205' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL36.xml' V281='13' V1='4' name='E2EDL36'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='206' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL36' description='Export Data Delivery Item Descriptions'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='207' V167='21' inheritsFromIncarnation='69' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL43000.xml' V281='13' V1='4' name='E2EDL43000' description='Reference' checksumValid='true' checksum='dtUTY5jgCjR91n6G1Fn3EFzjZN8='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='208' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL43000.xml' V281='13' V1='4' name='E2EDL43000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='209' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL43000' description='Reference'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='210' V167='21' V283='2' occurMaxTimes='2' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL41000' description='Reference data ordering party'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='211' V167='21' inheritsFromIncarnation='23' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL41000.xml' V281='13' V1='4' name='E2EDL41000' description='Reference data ordering party' checksumValid='true' checksum='ixCxzKFyh8e9+KjB7JyGpEHaWIc='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='212' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL41000.xml' V281='13' V1='4' name='E2EDL41000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='213' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL41000' description='Reference data ordering party'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='214' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL42000.xml' V281='13' V1='4' name='E2EDL42000' description='Reference data ordering party texts'>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='215' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL42000.xml' V281='13' V1='4' name='E2EDL42000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='216' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL42000' description='Reference data ordering party texts'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='217' V167='21' V283='2' occurMaxTimes='99' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2TXTH9001' description='General Text Header'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='218' V167='21' inheritsFromIncarnation='21' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTH9001.xml' V281='13' V1='4' name='E2TXTH9001' description='General Text Header' checksumValid='true' checksum='muen8hDUx6j0P49CknO2PaC9UPk='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='219' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTH9001.xml' V281='13' V1='4' name='E2TXTH9001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='220' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2TXTH9001' description='General Text Header'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='221' V167='21' inheritsFromIncarnation='16' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTP9.xml' V281='13' V1='4' name='E2TXTP9' description='General Text Segment' checksumValid='true' checksum='Y3P6vUKa5cIQvBgp0TvDJPhV6/8='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='222' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2TXTP9.xml' V281='13' V1='4' name='E2TXTP9'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='223' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2TXTP9' description='General Text Segment'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='224' V167='21' inheritsFromIncarnation='20' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL12.xml' V281='13' V1='4' name='E2EDL12' description='Configuration' checksumValid='true' checksum='EwwKpxX5ulkNM97Etewp8fw+6DQ='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='225' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL12.xml' V281='13' V1='4' name='E2EDL12'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='226' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL12' description='Configuration'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+      </child>
+      <child t='167' id='227' V167='21' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL37005' description='Handling unit header'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='228' V167='21' inheritsFromIncarnation='102' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL37005.xml' V281='13' V1='4' name='E2EDL37005' description='Handling unit header' checksumValid='true' checksum='aNo9SQQ11xrC3fEis5uacxVoLdg='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='229' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL37005.xml' V281='13' V1='4' name='E2EDL37005'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='230' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL37005' description='Handling unit header'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='231' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='9' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL39000.xml' V281='13' V1='4' name='E2EDL39000' description='Control Segment for Handling Units' checksumValid='true' checksum='+VdqFelTcYwpIh++3t3CGz/2sWs='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='232' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL39000.xml' V281='13' V1='4' name='E2EDL39000'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='233' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL39000' description='Control Segment for Handling Units'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='234' V167='21' inheritsFromIncarnation='22' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL38.xml' V281='13' V1='4' name='E2EDL38' description='Handling Unit Header Descriptions' checksumValid='true' checksum='B+dFDrigDi0bYlcDZ0WmhMnK0j4='>
+          <structNode t='150' idref='1'/>
+          <savedDerivedCopy t='167' id='235' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL38.xml' V281='13' V1='4' name='E2EDL38'>
+          </savedDerivedCopy>
+          <savedOrigCopyAtInheritsFrom t='167' id='236' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL38' description='Handling Unit Header Descriptions'>
+            <delimTerminator>\n</delimTerminator>
+          </savedOrigCopyAtInheritsFrom>
+          <delimTerminator>\n</delimTerminator>
+        </child>
+        <child t='167' id='237' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EPC02000' description='Handling Unit Header EPC Segment'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='238' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x16ad416d69f' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EPC02000.xml' V281='13' V1='4' name='E2EPC02000' description='Handling Unit Header EPC Segment' checksumValid='true' checksum='GAISvgB2Gbz5X6lffbTUGznWnFE='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='239' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EPC02000.xml' V281='13' V1='4' name='E2EPC02000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='240' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EPC02000' description='Handling Unit Header EPC Segment'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='241' V167='21' inheritsFromIncarnation='33' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2IDC02000.xml' V281='13' V1='4' name='E2IDC02000' description='EPC components' checksumValid='true' checksum='KvcHacOC299cIGqpj59mKfqtmBo='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='242' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2IDC02000.xml' V281='13' V1='4' name='E2IDC02000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='243' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2IDC02000' description='EPC components'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='244' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL49001' description='Express Delivery Company&apos;s Tracking Connection Data'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='245' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL49001.xml' V281='13' V1='4' name='E2EDL49001' description='Express Delivery Company&apos;s Tracking Connection Data' checksumValid='true' checksum='g21VAb0cYjMEnf42eOyki9mFuzc='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='246' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL49001.xml' V281='13' V1='4' name='E2EDL49001'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='247' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL49001' description='Express Delivery Company&apos;s Tracking Connection Data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='248' V167='21' inheritsFromIncarnation='17' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMaxTimes='999999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL50000.xml' V281='13' V1='4' name='E2EDL50000' description='Express Delivery Company - Additional Data' checksumValid='true' checksum='u/KuGyZnsTGwZzXRCyFvZRredrY='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='249' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL50000.xml' V281='13' V1='4' name='E2EDL50000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='250' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL50000' description='Express Delivery Company - Additional Data'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+        </child>
+        <child t='167' id='251' V167='21' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EDL44004' description='Handling Unit Item (Delivery)'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='252' V167='21' inheritsFromIncarnation='44' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL44004.xml' V281='13' V1='4' name='E2EDL44004' description='Handling Unit Item (Delivery)' checksumValid='true' checksum='gab7rx6UeonNs0G4Y4G4/wYymK0='>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='253' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL44004.xml' V281='13' V1='4' name='E2EDL44004'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='254' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL44004' description='Handling Unit Item (Delivery)'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='255' V167='21' inheritsFromIncarnation='15' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL46000.xml' V281='13' V1='4' name='E2EDL46000' description='Serial Numbers HU'>
+            <structNode t='150' idref='1'/>
+            <savedDerivedCopy t='167' id='256' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL46000.xml' V281='13' V1='4' name='E2EDL46000'>
+            </savedDerivedCopy>
+            <savedOrigCopyAtInheritsFrom t='167' id='257' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL46000' description='Serial Numbers HU'>
+              <delimTerminator>\n</delimTerminator>
+            </savedOrigCopyAtInheritsFrom>
+            <delimTerminator>\n</delimTerminator>
+          </child>
+          <child t='167' id='258' V167='21' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Loop-E2EPC03000' description='Handling Unit Item EPC Segment'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='259' V167='21' inheritsFromIncarnation='18' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EPC03000.xml' V281='13' V1='4' name='E2EPC03000' description='Handling Unit Item EPC Segment' checksumValid='true' checksum='mGDJ9Wd7wlt0Cd0XEKysQAg1lZM='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='260' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EPC03000.xml' V281='13' V1='4' name='E2EPC03000'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='261' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EPC03000' description='Handling Unit Item EPC Segment'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+            <child t='167' id='262' V167='21' inheritsFromIncarnation='33' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMaxTimes='2147483647' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2IDC03000.xml' V281='13' V1='4' name='E2IDC03000' description='EPC components' checksumValid='true' checksum='HPj/k8byhu13CPhYV8agyw0hj1w='>
+              <structNode t='150' idref='1'/>
+              <savedDerivedCopy t='167' id='263' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2IDC03000.xml' V281='13' V1='4' name='E2IDC03000'>
+              </savedDerivedCopy>
+              <savedOrigCopyAtInheritsFrom t='167' id='264' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2IDC03000' description='EPC components'>
+                <delimTerminator>\n</delimTerminator>
+              </savedOrigCopyAtInheritsFrom>
+              <delimTerminator>\n</delimTerminator>
+            </child>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='265' V167='21' inheritsFromIncarnation='35' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMaxTimes='99999' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL54001.xml' V281='13' V1='4' name='E2EDL54001' description='Repack Handling Units' checksumValid='true' checksum='HxbhDI9Bi1vIRBYSrGSHi56mMRg='>
+        <structNode t='150' idref='1'/>
+        <savedDerivedCopy t='167' id='266' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2EDL54001.xml' V281='13' V1='4' name='E2EDL54001'>
+        </savedDerivedCopy>
+        <savedOrigCopyAtInheritsFrom t='167' id='267' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDL54001' description='Repack Handling Units'>
+          <delimTerminator>\n</delimTerminator>
+        </savedOrigCopyAtInheritsFrom>
+        <delimTerminator>\n</delimTerminator>
+      </child>
+    </child>
+    <child t='167' id='268' V167='21' inheritsFromIncarnation='19' inheritsFromTimestamp='0x16ad416d6af' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' inheritsFromCopyRule='28' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2UPSLINK000.xml' V281='13' V1='4' name='E2UPSLINK000' description='Reference from Object to Superior UPS' checksumValid='true' checksum='qoPML9oiw3fZ8rjAhvVI2QGHSs8='>
+      <structNode t='150' idref='1'/>
+      <savedDerivedCopy t='167' id='269' V167='21' needInheritInit='true' inheritsInThisStruct='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='Structures/ZDELVRY05_IDOC_STRUCTURE/Segments/E2UPSLINK000.xml' V281='13' V1='4' name='E2UPSLINK000'>
+      </savedDerivedCopy>
+      <savedOrigCopyAtInheritsFrom t='167' id='270' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2UPSLINK000' description='Reference from Object to Superior UPS'>
+        <delimTerminator>\n</delimTerminator>
+      </savedOrigCopyAtInheritsFrom>
+      <delimTerminator>\n</delimTerminator>
+    </child>
+  </rootElem>
+  <defaultRep t='181' id='271' V181='1' V170='10' V704='1' idoctyp='DELVRY05' cimtyp='ZDELVRY05' V690='1' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='IDocs'>
+  </defaultRep>
+  <child t='162' id='272' V1='4' name='Representations'>
+    <child t='181' idref='271'/>
+    <child t='172' id='273' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+  </child>
+  <child t='165' id='274' V1='4' name='Document Bindings'>
+  </child>
+</root>

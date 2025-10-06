@@ -1,0 +1,12 @@
+<AccountReplicationResponse>
+<item>
+<id>test123</id>
+<SAP_ERP_ID__c>asdfsadf</SAP_ERP_ID__c>
+<ErrorMessage></ErrorMessage>
+</item>
+<item>
+<id>test123</id>
+<SAP_ERP_ID__c>asdfsadf</SAP_ERP_ID__c>
+<ErrorMessage></ErrorMessage>
+</item>
+</AccountReplicationResponse>

@@ -11,8 +11,15 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
+    <module>jobs/joblets/testjoblet_0.1</module>
+    <module>jobs/process/Connect/connectioncheckjob_0.1</module>
     <module>jobs/process/connectivitytests_test_0.1</module>
+    <module>jobs/process/demo/connectioncheck_0.1</module>
+    <module>jobs/process/demo/connectioncheck_0.2</module>
+    <module>jobs/process/demo/salesforcetestjob_0.1</module>
+    <module>jobs/process/demo/testjobfortalendtraining_0.1</module>
     <module>jobs/process/test2_0.1</module>
+    <module>jobs/routes/test1_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.2</signer.version>

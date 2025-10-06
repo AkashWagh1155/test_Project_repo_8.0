@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_iVC6wFD9Eeys85NS32iP9g">
+    <contextParameter comment="" name="mysql_installerConnect_username" prompt="mysql_installerConnect_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Gauri_User" xmi:id="_iVC6wVD9Eeys85NS32iP9g"/>
+    <contextParameter comment="" name="mysql_installerConnect_password" prompt="mysql_installerConnect_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:z0BCX7YcTLw7KjHnAXE5yN1bfOwkMB+RsWXlD6Sw6GZx1GX3CkejRNgr6VuD4205tQ==" xmi:id="_iVC6wlD9Eeys85NS32iP9g"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverIp" prompt="mysql_installerConnect_serverIp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.200.150.144" xmi:id="_iVC6w1D9Eeys85NS32iP9g"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverPort" prompt="mysql_installerConnect_serverPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;3306&quot;" xmi:id="_iVC6xFD9Eeys85NS32iP9g"/>
+    <contextParameter comment="" name="mysql_installerConnect_database" prompt="mysql_installerConnect_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="gauk_inco_dev1" xmi:id="_iVC6xVD9Eeys85NS32iP9g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Development" xmi:id="_YPZjYP5FEeqtpNfOU-ltmw">
+    <contextParameter comment="" name="mysql_installerConnect_username" prompt="mysql_installerConnect_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jlewis" xmi:id="_YPaKcP5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_password" prompt="mysql_installerConnect_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:SJveWIaxBZO/rsV20Ua3b/87B1129bFClGYjdV8s8EhnpQSR3YaC+AZDQkU=" xmi:id="_YPaKcf5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverIp" prompt="mysql_installerConnect_serverIp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.200.150.144" xmi:id="_YPaKcv5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverPort" prompt="mysql_installerConnect_serverPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_YPaKc_5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_database" prompt="mysql_installerConnect_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;gauk_inco_dev1&quot;" xmi:id="_jaRkgf8CEeqcwKi5l7pcUA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Local" xmi:id="_GN0C4P5pEeqtpNfOU-ltmw">
+    <contextParameter comment="" name="mysql_installerConnect_username" prompt="mysql_installerConnect_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="capi2user" xmi:id="_GN0C4f5pEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_password" prompt="mysql_installerConnect_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:B53sngwcxZzCRjZBW2kslqfatvav7FNqdMH1Ycz4GzofZEejDr4=" xmi:id="_GN0C4v5pEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverIp" prompt="mysql_installerConnect_serverIp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;localhost&quot;" xmi:id="_GN0C4_5pEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverPort" prompt="mysql_installerConnect_serverPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;3306&quot;" xmi:id="_GN0C5P5pEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_database" prompt="mysql_installerConnect_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;gauk_inco_local&quot;" xmi:id="_jaRkgP8CEeqcwKi5l7pcUA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_IVr8AINhEey-JLAKpYGkBA">
+    <contextParameter comment="" name="mysql_installerConnect_username" prompt="mysql_installerConnect_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_prd" xmi:id="_IVr8AYNhEey-JLAKpYGkBA"/>
+    <contextParameter comment="" name="mysql_installerConnect_password" prompt="mysql_installerConnect_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:aKRGiQ2H75miS9QmAC5woZqOQULVOtEfh0n9FtQTwjs8vdG6tmICnbjWhu+x/rS6" xmi:id="_IVr8AoNhEey-JLAKpYGkBA"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverIp" prompt="mysql_installerConnect_serverIp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.200.150.126" xmi:id="_IVr8A4NhEey-JLAKpYGkBA"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverPort" prompt="mysql_installerConnect_serverPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_IVr8BINhEey-JLAKpYGkBA"/>
+    <contextParameter comment="" name="mysql_installerConnect_database" prompt="mysql_installerConnect_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;gauk_inco_prd1&quot;" xmi:id="_IVr8BYNhEey-JLAKpYGkBA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Production" xmi:id="_pG4d4P5FEeqtpNfOU-ltmw">
+    <contextParameter comment="" name="mysql_installerConnect_username" prompt="mysql_installerConnect_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jlewis" xmi:id="_pG4d4f5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_password" prompt="mysql_installerConnect_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:SUOjNwcBksTmFLuNpzk+fRq7kLve6auEhYQltQ+xJhxGajCZCL+WKR4gmy4=" xmi:id="_pG4d4v5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverIp" prompt="mysql_installerConnect_serverIp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.200.150.126" xmi:id="_pG4d4_5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverPort" prompt="mysql_installerConnect_serverPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_pG4d5P5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_database" prompt="mysql_installerConnect_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;gauk_inco_prd1&quot;" xmi:id="_jaRkg_8CEeqcwKi5l7pcUA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QAS" xmi:id="_auPJcIKAEeuX74fr7weaxg">
+    <contextParameter comment="" name="mysql_installerConnect_username" prompt="mysql_installerConnect_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Gauri_User" xmi:id="_auPJcYKAEeuX74fr7weaxg"/>
+    <contextParameter comment="" name="mysql_installerConnect_password" prompt="mysql_installerConnect_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:lh/Pze0OX/zARgU/uOyDsijkp02j0DIXh7QaDkpTVtlL3OiElFwdl5u2ywLt3C65CQ==" xmi:id="_auPJcoKAEeuX74fr7weaxg"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverIp" prompt="mysql_installerConnect_serverIp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.200.150.144" xmi:id="_auPJc4KAEeuX74fr7weaxg"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverPort" prompt="mysql_installerConnect_serverPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;3306&quot;" xmi:id="_auPJdIKAEeuX74fr7weaxg"/>
+    <contextParameter comment="" name="mysql_installerConnect_database" prompt="mysql_installerConnect_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;gauk_inco_dev2&quot;" xmi:id="_auPJdYKAEeuX74fr7weaxg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_pG4d5f5FEeqtpNfOU-ltmw">
+    <contextParameter comment="" name="mysql_installerConnect_username" prompt="mysql_installerConnect_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jlewis" xmi:id="_pG4d5v5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_password" prompt="mysql_installerConnect_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:zoNOPPOqYEYycrWkOYGtDlXwDDcAz9ItUKHU0Jk3IcM6Fc1Rf0VAhoxf/78=" xmi:id="_pG4d5_5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverIp" prompt="mysql_installerConnect_serverIp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.200.150.144" xmi:id="_pG4d6P5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_serverPort" prompt="mysql_installerConnect_serverPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_pG4d6f5FEeqtpNfOU-ltmw"/>
+    <contextParameter comment="" name="mysql_installerConnect_database" prompt="mysql_installerConnect_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;gauk_inco_dev1&quot;" xmi:id="_jaRkgv8CEeqcwKi5l7pcUA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_94b865e2-c28a-4763-9db8-fc2200989b26"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>76tSpB2dgPixI/+ZBIbMiyQBk82lV5huaUjs2DVrgHKiz/jciuaArZzwHTlNNUCQsJmbLYKD+61m&#13;
+E/XFrqqhWA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_77ab543a-b697-415c-83c1-8ceffd48ad10"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>t1YvgJ7wWogIrqsNteYVsBqA4ZvOUPKTGCtvee9vQtUWmP0vqRu55RFf9H8hy2Nki+xU2bEg704I&#13;
+GvmgQylNHw==</DigestValue></Reference></SignedInfo><SignatureValue>Lva+8OnreBXCqHdFQaswTHxJWGOf+fBO5ftxfE3M033DiI5Pu1pvu6plu0+zGYIHd8N7d0d8jgcf&#13;
+YeEt6DZ2oO4kw81Ac/njqDMvsPAZaW66AM+hksPDk7r7f+OS2OoaG3uVX/Hyn7B/P+sb4VaDzD3S&#13;
+JZ9slv9EfbSAHoAsKlsQ6O6ckg4M39kRMGaR9A4rPXvdNxnn8Wcnyg2HI2h1dxyDIYCCrBuARj1Q&#13;
+8yeuo9RWABmpjhDmt5TsPGGZfupQ/bXVby5pkeJwtAxQdEKb4KSRATcurNRK3/nLUHPUtFNbSQJx&#13;
+8GM2L8r3W7Sssu+0yhjxARXScWtJonqpA52isg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_77ab543a-b697-415c-83c1-8ceffd48ad10" Target="#_94b865e2-c28a-4763-9db8-fc2200989b26"><Timestamp>2025-10-06 11:05:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

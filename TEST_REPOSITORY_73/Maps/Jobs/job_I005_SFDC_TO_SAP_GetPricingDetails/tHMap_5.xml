@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/response_xml.xml' outStruct='Structures/response_xml.xml' inputRep='172' outputRep='177' nextMap='' inputStructUserName='response_xml' outputStructUserName='response_xml' V1='4' name='tHMap_5' incarnation='278'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='32' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Pricing_response'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='24' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ProductCode'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ListPrice'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='6' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ErrorMessage'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='37' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Pricing_response'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/Pricing_response,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='12' V200='8' structElemExists='true' usedCount='28' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='item'>
+      <mapNode t='190' idref='1'/>
+      <loop>SimpleLoop(in$/Pricing_response/item,{Filter},{Sort Keys},{Contexts})</loop>
+      <child t='200' id='13' V200='8' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ProductCode'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/Pricing_response/item/ProductCode</value>
+      </child>
+      <child t='200' id='14' V200='8' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ListPrice'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/Pricing_response/item/ListPrice</value>
+      </child>
+      <child t='200' id='15' V200='8' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ErrorMessage'>
+        <mapNode t='190' idref='1'/>
+        <value>IfThenElse(HasValue(in$/Pricing_response/item/ErrorMessage),in$/Pricing_response/item/ErrorMessage,Constant([value="null",dataType="2"],))</value>
+      </child>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='692' id='44' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/response_xml.xml'/>
+  </inputRepRuntime>
+  <outputRepRuntime t='697' id='45' V697='1' V690='1' padOutput='true'>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' idref='44'/>
+  <outputXmlRepRuntime t='692' idref='44'/>
+  <child t='165' id='16' V1='4' name='Document Bindings'>
+    <child t='166' id='5' V166='5' docType='1' docReposPath='/ISM_DEV/Sample Data/response_xml/response_xml' V1='4' name='in$/Pricing_response'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='6' V166='5' docType='2' docReposPath='/ISM_DEV/Sample Data/response_xml/response_xml' V1='4' name='out$/Pricing_response'>
+      <elemNode t='200' idref='3'/>
+    </child>
+  </child>
+  <child t='201' id='7' V1='4' name='Inherits From'>
+  </child>
+</root>

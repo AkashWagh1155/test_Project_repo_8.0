@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendJSON:JSONFileConnection Encoding="UTF-8" JSONFilePath="C:/Users/DipakGiri/Documents/01 GA Gledhill/00 RnD/Json - Salesforce/SAP_output.json" dataPackage="_urC9tmmWEe68FZ9TAndU-g" name="Contract_JSON_Structure" readbyMode="XPATH" xmi:id="_urC9oGmWEe68FZ9TAndU-g">
+    <schema AbsoluteXPathQuery="/root/object" LimitBoucle="50" flag="ROOT_OBJECT" xmi:id="_urC9oWmWEe68FZ9TAndU-g">
+      <schemaTargets RelativeXPathQuery="contract" TagName="contract" xmi:id="_urC9ommWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="ordReason" TagName="ordReason" xmi:id="_urC9o2mWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="valFrom" TagName="valFrom" xmi:id="_urC9pGmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="valTo" TagName="valTo" xmi:id="_urC9pWmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="netVal" TagName="netVal" xmi:id="_urC9pmmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="customer" TagName="customer" xmi:id="_urC9p2mWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/contract" TagName="contract1" xmi:id="_urC9qGmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/line" TagName="line" xmi:id="_urC9qWmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/material" TagName="material" xmi:id="_urC9qmmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/netPrice" TagName="netPrice" xmi:id="_urC9q2mWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/netVal" TagName="netVal1" xmi:id="_urC9rGmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/qty" TagName="qty" xmi:id="_urC9rWmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/warranty" TagName="warranty" xmi:id="_urC9rmmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/csrPoints" TagName="csrPoints" xmi:id="_urC9r2mWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/poNum" TagName="poNum" xmi:id="_urC9sGmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/poDate" TagName="poDate" xmi:id="_urC9sWmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/merchantPa" TagName="merchantPa" xmi:id="_urC9smmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/kaePa" TagName="kaePa" xmi:id="_urC9s2mWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/clientPa" TagName="clientPa" xmi:id="_urC9tGmWEe68FZ9TAndU-g"/>
+      <schemaTargets RelativeXPathQuery="item/contractorPa" TagName="contractorPa" xmi:id="_urC9tWmWEe68FZ9TAndU-g"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_urC9oGmWEe68FZ9TAndU-g" name="default" xmi:id="_urC9tmmWEe68FZ9TAndU-g">
+    <ownedElement id="_8I6GYGmVEe68FZ9TAndU-g" label="metadata" xmi:id="_urC9t2mWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="contract" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9uGmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ordReason" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9uWmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="valFrom" length="10" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_urC9ummWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="valTo" length="10" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_urC9u2mWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="netVal" length="8" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_urC9vGmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="customer" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9vWmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="contract1" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9vmmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="line" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_urC9v2mWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="material" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_urC9wGmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="netPrice" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_urC9wWmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="netVal1" length="7" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_urC9wmmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="qty" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_urC9w2mWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="warranty" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_urC9xGmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="csrPoints" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_urC9xWmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="poNum" length="38" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9xmmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="poDate" length="10" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_urC9x2mWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="merchantPa" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9yGmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="kaePa" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9yWmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="clientPa" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9ymmWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="contractorPa" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_urC9y2mWEe68FZ9TAndU-g" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_55d2f191-2626-4057-b816-8d105df7d5af"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DZkWjx3c507EK6YJVZoKChgJjlJDRTOBm0WHEElbELejOjJxhS7hRsRJntj76cMoMoc4174wha2e&#13;
+5ZN+DxOlbw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8e9d414d-2a92-4d5f-864f-37b21f6bbde5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fvAG3CnCIHtvD4jOMqjj00tt2mBiWX4N5WQ+lfZdYO1acc8nT70GpmNUHGVMVb3JyiBU/ndmbzN8&#13;
+QAVw5y/IpA==</DigestValue></Reference></SignedInfo><SignatureValue>LPnJYYMoFUzBzCXZd1FaEK45kPnT6LVK0+eguTy+13Un5j+4F6dfUEitze6Q0m+SMuasq8AE9Uvq&#13;
+ZeWC8gtwCnfy8PA8t96nN4KNP5WOqFKmFzqvQqy0B7voaf7AErlY+5smLhcJftvuoLNtYOCCWXnE&#13;
+b+B8ydkbcgBzSjrscIkSDwoK0Owtzc4RkQHgDzWXVeYXWtmz3T48bSWq67jMc2eF2lQzaybSMuSB&#13;
+BsgDxAIkhjwrSq6E/CpJtHspg2LS4IMbDk07/OIbqsgre0IIJExZRcB8Eg1xmZL8YNl/9gYINQ6P&#13;
+rY3L4L2cL+E2nRgJ504Rn0OY58i+XVKB0cIiNw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8e9d414d-2a92-4d5f-864f-37b21f6bbde5" Target="#_55d2f191-2626-4057-b816-8d105df7d5af"><Timestamp>2025-10-06 11:06:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

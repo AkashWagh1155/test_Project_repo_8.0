@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/UpdatedQuoteInput.xml' outStruct='Structures/CreateQuoteBapiInput.xml' inputRep='172' outputRep='172' nextMap='' inputStructUserName='UpdatedQuoteInput' outputStructUserName='CreateQuoteBapiInput' V1='4' name='tHMap_1' incarnation='2263'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='238' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='QuoteRequest'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='54' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='QuoteReplicationRequest'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='QuoteName'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='12' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Brand'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CreationDate'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='13' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ExpirationDate'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+    <child t='200' id='14' V200='8' input='true' structElemExists='true' usedCount='126' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='QuoteLinesReplicationRequest'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='15' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LineNumber'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='16' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ProductId'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='17' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Quantity'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='18' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='QuoteNumber'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='19' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ProductDescription'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='20' V200='8' input='true' structElemExists='true' usedCount='42' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Item'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='21' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Type'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='22' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Value'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+    </child>
+    <child t='200' id='23' V200='8' input='true' structElemExists='true' usedCount='42' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Partners'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='24' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ERPID'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='25' V200='8' input='true' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Role'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='344' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' modifiedFromParent_value='true' V1='4' name='root'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/QuoteRequest,{Filter},{Sort Keys},{Contexts})</loop>
+    <value>Constant([value="",dataType="2"],)</value>
+    <child t='200' id='26' V200='8' structElemExists='true' usedCount='71' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='INPUT'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='27' V200='8' structElemExists='true' usedCount='71' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='IS_SALES_HEADER_IN'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='28' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='SALES_ORG'>
+          <mapNode t='190' idref='1'/>
+          <value>Choice(ChoiceValue(Equal(in$/QuoteRequest/QuoteReplicationRequest/Brand,Constant([value="Hamworthy",dataType="2"],)),Constant([value="0314",dataType="2"],)),ChoiceValue(Equal(in$/QuoteRequest/QuoteReplicationRequest/Brand,Constant([value="Keston",dataType="2"],)),Constant([value="600",dataType="2"],)),ChoiceValue(Equal(in$/QuoteRequest/QuoteReplicationRequest/Brand,Constant([value="Ideal",dataType="2"],)),Constant([value="0300",dataType="2"],)))</value>
+        </child>
+        <child t='200' id='29' V200='8' structElemExists='true' usedCount='13' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DOC_TYPE'>
+          <mapNode t='190' idref='1'/>
+          <value>IfThenElse(Equal(in$/QuoteRequest/QuoteReplicationRequest/Brand,Constant([value="Hamworthy",dataType="2"],)),Constant([value="ZHQS",dataType="2"],),IfThen(Equal(in$/QuoteRequest/QuoteReplicationRequest/Brand,Constant([value="Ideal",dataType="2"],)),Constant([value="ZQU2",dataType="2"],)))</value>
+        </child>
+        <child t='200' id='30' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='QT_VALID_F'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/QuoteRequest/QuoteReplicationRequest/CreationDate</value>
+        </child>
+        <child t='200' id='31' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='QT_VALID_T'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/QuoteRequest/QuoteReplicationRequest/ExpirationDate</value>
+        </child>
+        <child t='200' id='32' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PURCH_NO_C'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/QuoteRequest/QuoteReplicationRequest/QuoteName</value>
+        </child>
+      </child>
+    </child>
+    <child t='200' id='33' V200='8' structElemExists='true' usedCount='255' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TABLES'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='34' V200='8' structElemExists='true' usedCount='60' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CT_SALES_CONDITIONS_IN'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='35' V200='8' structElemExists='true' usedCount='60' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <loop>SimpleLoop(in$/QuoteRequest/QuoteLinesReplicationRequest,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/QuoteRequest/QuoteLinesReplicationRequest/Item,{Filter},{Sort Keys},{Contexts})))</loop>
+          <child t='200' id='36' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ITM_NUMBER'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/LineNumber</value>
+          </child>
+          <child t='200' id='37' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='COND_TYPE'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/Item/Type</value>
+          </child>
+          <child t='200' id='38' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='COND_VALUE'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/Item/Value</value>
+          </child>
+        </child>
+      </child>
+      <child t='200' id='39' V200='8' structElemExists='true' usedCount='105' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CT_SALES_ITEMS_IN'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='40' V200='8' structElemExists='true' usedCount='105' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <loop>SimpleLoop(in$/QuoteRequest/QuoteLinesReplicationRequest,{Filter},{Sort Keys},{Contexts})</loop>
+          <child t='200' id='41' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ITM_NUMBER'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/LineNumber</value>
+          </child>
+          <child t='200' id='42' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='MATERIAL'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/ProductId</value>
+          </child>
+          <child t='200' id='43' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='TARGET_QTY'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/Quantity</value>
+          </child>
+          <child t='200' id='44' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='REF_DOC'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/QuoteNumber</value>
+          </child>
+          <child t='200' id='45' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='REF_DOC_IT'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/LineNumber</value>
+          </child>
+          <child t='200' id='46' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='SHORT_TEXT'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/ProductDescription</value>
+          </child>
+        </child>
+      </child>
+      <child t='200' id='47' V200='8' structElemExists='true' usedCount='45' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CT_SALES_PARTNERS'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='48' V200='8' structElemExists='true' usedCount='45' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <loop>SimpleLoop(in$/QuoteRequest/Partners,{Filter},{Sort Keys},{Contexts})</loop>
+          <child t='200' id='49' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PARTN_NUMB'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/Partners/ERPID</value>
+          </child>
+          <child t='200' id='50' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PARTN_ROLE'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/Partners/Role</value>
+          </child>
+        </child>
+      </child>
+      <child t='200' id='51' V200='8' structElemExists='true' usedCount='45' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CT_SALES_SCHEDULES_IN'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='52' V200='8' structElemExists='true' usedCount='45' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <loop>SimpleLoop(in$/QuoteRequest/QuoteLinesReplicationRequest,{Filter},{Sort Keys},{Contexts})</loop>
+          <child t='200' id='53' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ITM_NUMBER'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/LineNumber</value>
+          </child>
+          <child t='200' id='54' V200='8' structElemExists='true' usedCount='15' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='REQ_QTY'>
+            <mapNode t='190' idref='1'/>
+            <value>in$/QuoteRequest/QuoteLinesReplicationRequest/Quantity</value>
+          </child>
+        </child>
+      </child>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='692' id='62' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/UpdatedQuoteInput.xml'/>
+  </inputRepRuntime>
+  <outputRepRuntime t='692' id='63' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/UpdatedBapiInput.xml'/>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' idref='62'/>
+  <outputXmlRepRuntime t='692' idref='63'/>
+  <child t='165' id='5' V1='4' name='Document Bindings'>
+    <child t='166' id='6' V166='5' docType='1' docReposPath='/LOCAL_TEST_1/Sample Data/UpdatedQuoteInput/UpdatedQuoteInput' V1='4' name='in$/QuoteRequest'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='7' V166='5' docType='2' V1='4' name='out$/root'>
+      <elemNode t='200' idref='3'/>
+    </child>
+  </child>
+  <child t='201' id='8' V1='4' name='Inherits From'>
+  </child>
+</root>

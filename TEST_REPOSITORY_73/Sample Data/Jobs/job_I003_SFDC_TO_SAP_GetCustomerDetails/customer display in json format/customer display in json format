@@ -1,0 +1,46 @@
+{
+	"ZFMAM_CUSTOMER_DISPLAY": {
+		"OUTPUT": {
+			"EV_CR_EXPOSURE": "47769.69",
+			"EV_CR_LIMIT_USED": "1.91",
+			"EV_CTRL_BLG_BLK": "01 Calculation Missing",
+			"EV_CTRL_DLV_BLK": "01 Credit limit",
+			"EV_CTRL_ORD_BLK": "01 Overall block",
+			"EV_CUST_CR_LIMIT": "2500000.00"
+		},
+		"TABLES": {
+			"ET_CUST_TAB": {
+				"item": [
+					{
+						"CUST_NO": "0000710003",
+						"SALES_ORG": "0300",
+						"DIST_CHANNEL": "00",
+						"DIVISION": "00",
+						"ORDER_BLK_CD": "",
+						"ORDER_BLK_DESC": "test",
+						"DELY_BLK_CD": "01",
+						"DELY_BLK_DESC": "Credit limit",
+						"BILL_BLK_CD": "01",
+						"BILL_BLK_DESC": "Calculation Missing",
+						"CTRL_BLK_CD": "X",
+						"CTRL_SLS_BLK_DESC": "Central sales block for customer"
+					},
+					{
+						"CUST_NO": "0000710003",
+						"SALES_ORG": "0300",
+						"DIST_CHANNEL": "00",
+						"DIVISION": "00",
+						"ORDER_BLK_CD": "",
+						"ORDER_BLK_DESC": "test",
+						"DELY_BLK_CD": "01",
+						"DELY_BLK_DESC": "Credit limit",
+						"BILL_BLK_CD": "01",
+						"BILL_BLK_DESC": "Calculation Missing",
+						"CTRL_BLK_CD": "X",
+						"CTRL_SLS_BLK_DESC": "Central sales block for customer"
+					}
+				]
+			}
+		}
+	}
+}

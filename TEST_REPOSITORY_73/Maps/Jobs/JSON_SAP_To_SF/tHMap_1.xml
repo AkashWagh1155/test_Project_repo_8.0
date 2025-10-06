@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/SAP_output.xml' outStruct='Structures/SAP_output.xml' inputRep='177' outputRep='177' nextMap='' inputStructUserName='SAP_output' outputStructUserName='SAP_output' V1='4' name='tHMap_1' incarnation='539'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='24' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SAP_output'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='contract'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='ordReason'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='5' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='valFrom'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='6' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='valTo'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='netVal'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='customer'>
+      <mapNode t='190' idref='1'/>
+    </child>
+    <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='16' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='contract'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='line'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='material'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='13' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='netPrice'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='14' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='netVal'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='15' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='qty'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='16' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='warranty'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='17' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='csrPoints'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='18' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='poNum'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='19' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='poDate'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='20' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='merchantPa'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='21' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='kaePa'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='22' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='clientPa'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='23' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='contractorPa'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='24' V200='8' structElemExists='true' usedCount='46' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='SAP_output'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/SAP_output,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='25' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='contract'>
+      <mapNode t='190' idref='1'/>
+      <value>in$/SAP_output/contract</value>
+    </child>
+    <child t='200' id='26' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ordReason'>
+      <mapNode t='190' idref='1'/>
+      <value>in$/SAP_output/ordReason</value>
+    </child>
+    <child t='200' id='27' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='valFrom'>
+      <mapNode t='190' idref='1'/>
+      <value>in$/SAP_output/valFrom</value>
+    </child>
+    <child t='200' id='28' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='valTo'>
+      <mapNode t='190' idref='1'/>
+      <value>in$/SAP_output/valTo</value>
+    </child>
+    <child t='200' id='29' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='netVal'>
+      <mapNode t='190' idref='1'/>
+      <value>in$/SAP_output/netVal</value>
+    </child>
+    <child t='200' id='30' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='customer'>
+      <mapNode t='190' idref='1'/>
+      <value>in$/SAP_output/customer</value>
+    </child>
+    <child t='200' id='31' V200='8' structElemExists='true' usedCount='31' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='item'>
+      <mapNode t='190' idref='1'/>
+      <loop>SimpleLoop(in$/SAP_output/item,{Filter},{Sort Keys},{Contexts})</loop>
+      <child t='200' id='32' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='contract'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/contract</value>
+      </child>
+      <child t='200' id='33' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='line'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/line</value>
+      </child>
+      <child t='200' id='34' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='material'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/material</value>
+      </child>
+      <child t='200' id='35' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='netPrice'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/netPrice</value>
+      </child>
+      <child t='200' id='36' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='netVal'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/netVal</value>
+      </child>
+      <child t='200' id='37' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='qty'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/qty</value>
+      </child>
+      <child t='200' id='38' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='warranty'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/warranty</value>
+      </child>
+      <child t='200' id='39' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='csrPoints'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/csrPoints</value>
+      </child>
+      <child t='200' id='40' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='poNum'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/poNum</value>
+      </child>
+      <child t='200' id='41' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='poDate'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/poDate</value>
+      </child>
+      <child t='200' id='42' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='merchantPa'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/merchantPa</value>
+      </child>
+      <child t='200' id='43' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='kaePa'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/kaePa</value>
+      </child>
+      <child t='200' id='44' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='clientPa'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/clientPa</value>
+      </child>
+      <child t='200' id='45' V200='8' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='contractorPa'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/SAP_output/item/contractorPa</value>
+      </child>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='697' id='46' V697='1' V690='1' padOutput='true' encoding='UTF-8'>
+  </inputRepRuntime>
+  <outputRepRuntime t='697' idref='46'/>
+  <valueSets></valueSets>
+  <child t='165' id='47' V1='4' name='Document Bindings'>
+    <child t='166' id='48' V166='5' docType='1' docReposPath='/SALESFORCE73/Sample Data/SAP_output/SAP_output' V1='4' name='in$/SAP_output'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='49' V166='5' docType='2' docReposPath='/SALESFORCE73/Sample Data/SAP_output/SAP_output' V1='4' name='out$/SAP_output'>
+      <elemNode t='200' idref='24'/>
+    </child>
+  </child>
+  <child t='201' id='50' V1='4' name='Inherits From'>
+  </child>
+</root>
