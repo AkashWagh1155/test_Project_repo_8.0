@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_DVGC4HYUEemf9f7czw9jxw">
+    <contextParameter comment="" name="DB_DatabaseName" prompt="DB_DatabaseName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC4XYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_HostName" prompt="DB_HostName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC4nYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_UserName" prompt="DB_UserName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC43YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Password" prompt="DB_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_DVGC5HYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Client" prompt="SAP_Client?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC5XYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_HostName" prompt="SAP_HostName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC5nYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_UserName" prompt="SAP_UserName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC53YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Password" prompt="SAP_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_DVGC6HYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_SystemName" prompt="SAP_SystemName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC6XYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Language" prompt="SAP_Language?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC6nYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_HostName" prompt="RFC_HostName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC63YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Port" prompt="RFC_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC7HYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_UserName" prompt="RFC_UserName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC7XYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Password" prompt="RFC_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_DVGC7nYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC73YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_DVGC8HYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" type="id_Password" value="" xmi:id="_DVGC8XYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC8nYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="saveSFID" prompt="saveSFID?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC83YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Environment" prompt="Email_Environment?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC9HYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_ToAddress" prompt="Email_ToAddress?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC9XYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_FromAddress" prompt="Email_FromAddress?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC9nYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC93YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_SMTP" prompt="Email_SMTP?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC-HYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Port" prompt="DB_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC-XYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_AccountNumber" prompt="BANK_AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC-nYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_SortCode" prompt="BANK_SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC-3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_StatementText" prompt="BANK_StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC_HYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC_XYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Products" prompt="Filepath_Products?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC_nYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGC_3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_ProductBrandData" prompt="Filepath_ProductBrandData?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDAHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_SalesText" prompt="Filepath_SalesText?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDAXYUEemf9f7czw9jxw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_DEV" xmi:id="_DVGDAnYUEemf9f7czw9jxw">
+    <contextParameter comment="" name="DB_DatabaseName" prompt="DB_DatabaseName?" promptNeeded="false" type="id_String" value="dev_gauri" xmi:id="_DVGDA3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_HostName" prompt="DB_HostName?" promptNeeded="false" type="id_String" value="10.200.150.39" xmi:id="_DVGDBHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_UserName" prompt="DB_UserName?" promptNeeded="false" type="id_String" value="Talend_Gauri_Dev" xmi:id="_DVGDBXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Password" prompt="DB_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:zUrZnRjdpe5/C89fu4w+9gqTpYLZ6wqVFjnUGNSFr3Q/6P2uT25wmHVP/7E=" xmi:id="_DVGDBnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Client" prompt="SAP_Client?" promptNeeded="false" type="id_String" value="500" xmi:id="_DVGDB3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_HostName" prompt="SAP_HostName?" promptNeeded="false" type="id_String" value="10.200.125.12" xmi:id="_DVGDCHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_UserName" prompt="SAP_UserName?" promptNeeded="false" type="id_String" value="Talend07" xmi:id="_DVGDCXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Password" prompt="SAP_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:T64fju2xXdTFTB2BmkuPjFufuoP5TXXAK4daT1/QpIM4VAvwhFo=" xmi:id="_DVGDCnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_SystemName" prompt="SAP_SystemName?" promptNeeded="false" type="id_String" value="00" xmi:id="_DVGDC3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Language" prompt="SAP_Language?" promptNeeded="false" type="id_String" value="EN" xmi:id="_DVGDDHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_HostName" prompt="RFC_HostName?" promptNeeded="false" type="id_String" value="10.200.150.154" xmi:id="_DVGDDXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Port" prompt="RFC_Port?" promptNeeded="false" type="id_String" value="61616" xmi:id="_DVGDDnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_UserName" prompt="RFC_UserName?" promptNeeded="false" type="id_String" value="admin" xmi:id="_DVGDD3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Password" prompt="RFC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:FsNd0f01AvEDd8FVTUFMhU4UGG+3lZnyzIEritsUNiLn" xmi:id="_DVGDEHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" type="id_String" value="sf-api@groupe-atlantic.co.uk.ga.gauksmorg" xmi:id="_DVGDEXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:YpoPm5o/63UAGi/VQd/o6HWC9i/g0P8HRZESY1GcABgt5v8a" xmi:id="_DVGDEnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:y1lys/O4j1X2KrHzYbz23TW+4jV8OlVtZKIiPBuLM0rRVCtFftDcnW5eR1/4eXJz0l4MKw==" xmi:id="_DVGDE3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" type="id_String" value="https://gauk--gauksmorg.cs102.my.salesforce.com/services/Soap/u/39.0 " xmi:id="_DVGDFHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="saveSFID" prompt="saveSFID?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDFXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Environment" prompt="Email_Environment?" promptNeeded="false" type="id_String" value="TALEND_ISM_DEV" xmi:id="_DVGDFnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_ToAddress" prompt="Email_ToAddress?" promptNeeded="false" type="id_String" value="rahul.chougule@gauri.com" xmi:id="_DVGDF3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_FromAddress" prompt="Email_FromAddress?" promptNeeded="false" type="id_String" value="TALEND@IDEALBOILERS.COM" xmi:id="_DVGDGHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value="25" xmi:id="_DVGDGXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_SMTP" prompt="Email_SMTP?" promptNeeded="false" type="id_String" value="smtprelay" xmi:id="_DVGDGnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Port" prompt="DB_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_DVGDG3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_AccountNumber" prompt="BANK_AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDHHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_SortCode" prompt="BANK_SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDHXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_StatementText" prompt="BANK_StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDHnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_DVGDH3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Products" prompt="Filepath_Products?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S004_CreateProducts/ProductBulk.csv" xmi:id="_DVGDIHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDIXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_ProductBrandData" prompt="Filepath_ProductBrandData?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S004_CreateProducts/ProductBrandDataBulk.csv" xmi:id="_DVGDInYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_SalesText" prompt="Filepath_SalesText?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S004_CreateProducts/UpdateSalesTextBulk.csv" xmi:id="_DVGDI3YUEemf9f7czw9jxw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_SIT" xmi:id="_DVGDJHYUEemf9f7czw9jxw">
+    <contextParameter comment="" name="DB_DatabaseName" prompt="DB_DatabaseName?" promptNeeded="false" type="id_String" value="qual_sit_lans_dev" xmi:id="_DVGDJXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_HostName" prompt="DB_HostName?" promptNeeded="false" type="id_String" value="10.200.150.39" xmi:id="_DVGDJnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_UserName" prompt="DB_UserName?" promptNeeded="false" type="id_String" value="Talend_Gauri_Dev" xmi:id="_DVGDJ3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Password" prompt="DB_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:I7mQW05Y2dqiTeTZMytscPwzyggmgIzQN2zoqpP1VJ44HwZm33C6EpJalyg=" xmi:id="_DVGDKHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Client" prompt="SAP_Client?" promptNeeded="false" type="id_String" value="500" xmi:id="_DVGDKXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_HostName" prompt="SAP_HostName?" promptNeeded="false" type="id_String" value="10.200.125.11" xmi:id="_DVGDKnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_UserName" prompt="SAP_UserName?" promptNeeded="false" type="id_String" value="Talend07" xmi:id="_DVGDK3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Password" prompt="SAP_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:dc3Bftk9QeV9BZB49ockp2XJIFSpTr5jx3X2nRlCqpW7JeK/qUu9g5pDse8=" xmi:id="_DVGDLHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_SystemName" prompt="SAP_SystemName?" promptNeeded="false" type="id_String" value="00" xmi:id="_DVGDLXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Language" prompt="SAP_Language?" promptNeeded="false" type="id_String" value="EN" xmi:id="_DVGDLnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_HostName" prompt="RFC_HostName?" promptNeeded="false" type="id_String" value="10.200.121.42" xmi:id="_DVGDL3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Port" prompt="RFC_Port?" promptNeeded="false" type="id_String" value="61616" xmi:id="_DVGDMHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_UserName" prompt="RFC_UserName?" promptNeeded="false" type="id_String" value="admin" xmi:id="_DVGDMXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Password" prompt="RFC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:aaYBvcQt1BY0FeFWNNFesFCXxPubhylmRiQg+KY5V8U+" xmi:id="_DVGDMnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" type="id_String" value="sf-api@groupe-atlantic.co.uk.ga.gauksmsit" xmi:id="_DVGDM3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:DeWlpbtQHDPMwgfbn7oZHST+Bk8q7TZ5GKq4e+Jgul5nglH9cMs=" xmi:id="_DVGDNHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:/yI7AW7fF0vuwwt1vsRQHDWd0+Wc3b4MFNq6VOBbxgr2a4XbBR95FHsek7bc7KW+jiwziQ==" xmi:id="_DVGDNXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" type="id_String" value="https://gauk--gauksmsit.cs101.my.salesforce.com/services/Soap/u/39.0" xmi:id="_DVGDNnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="saveSFID" prompt="saveSFID?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDN3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Environment" prompt="Email_Environment?" promptNeeded="false" type="id_String" value="TALEND_ISM_SIT" xmi:id="_DVGDOHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_ToAddress" prompt="Email_ToAddress?" promptNeeded="false" type="id_String" value="stuti.gupta@gauri.com , rahul.chougule@gauri.com , santosh.gadhave@gauri.com , sheshukumar.guntuka@gauri.com" xmi:id="_DVGDOXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_FromAddress" prompt="Email_FromAddress?" promptNeeded="false" type="id_String" value="TALEND@IDEALBOILERS.COM" xmi:id="_DVGDOnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value="25" xmi:id="_DVGDO3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_SMTP" prompt="Email_SMTP?" promptNeeded="false" type="id_String" value="smtprelay" xmi:id="_DVGDPHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Port" prompt="DB_Port?" promptNeeded="false" type="id_String" value="3306" xmi:id="_DVGDPXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_AccountNumber" prompt="BANK_AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDPnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_SortCode" prompt="BANK_SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDP3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_StatementText" prompt="BANK_StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDQHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_DVGDQXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Products" prompt="Filepath_Products?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_S004_CreateProducts/ProductBulk.csv" xmi:id="_DVGDQnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDQ3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_ProductBrandData" prompt="Filepath_ProductBrandData?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_S004_CreateProducts/ProductBrandDataBulk.csv" xmi:id="_DVGDRHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_SalesText" prompt="Filepath_SalesText?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_S004_CreateProducts/UpdateSalesTextBulk.csv" xmi:id="_DVGDRXYUEemf9f7czw9jxw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_DVGDRnYUEemf9f7czw9jxw">
+    <contextParameter comment="" name="DB_DatabaseName" prompt="DB_DatabaseName?" promptNeeded="false" type="id_String" value="gauk_gqsl_prd1" xmi:id="_DVGDR3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_HostName" prompt="DB_HostName?" promptNeeded="false" type="id_String" value="10.200.150.39" xmi:id="_DVGDSHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_UserName" prompt="DB_UserName?" promptNeeded="false" type="id_String" value="Talend_Gauri_Prd" xmi:id="_DVGDSXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Password" prompt="DB_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Q18S4h1AuL1xOpoptdKLY8w3DwRAnWYXlYT55GmEBPv2qRUigoqrt6wRYrw=" xmi:id="_DVGDSnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Client" prompt="SAP_Client?" promptNeeded="false" type="id_String" value="500" xmi:id="_DVGDS3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_HostName" prompt="SAP_HostName?" promptNeeded="false" type="id_String" value="10.200.120.10" xmi:id="_DVGDTHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_UserName" prompt="SAP_UserName?" promptNeeded="false" type="id_String" value="Talend07" xmi:id="_DVGDTXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Password" prompt="SAP_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:ATDQ0au2+gjtRuFq4M07Y3kD8SZ/A3QlmAddTx4TY2NtsF9ccVWxJ/AnkaQ=" xmi:id="_DVGDTnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_SystemName" prompt="SAP_SystemName?" promptNeeded="false" type="id_String" value="00" xmi:id="_DVGDT3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Language" prompt="SAP_Language?" promptNeeded="false" type="id_String" value="EN" xmi:id="_DVGDUHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_HostName" prompt="RFC_HostName?" promptNeeded="false" type="id_String" value="10.200.121.52" xmi:id="_DVGDUXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Port" prompt="RFC_Port?" promptNeeded="false" type="id_String" value="61616" xmi:id="_DVGDUnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_UserName" prompt="RFC_UserName?" promptNeeded="false" type="id_String" value="admin" xmi:id="_DVGDU3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Password" prompt="RFC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:BC5YUmV3k6rTmzv0bGUUwSunrEMVveMAtE8Wb5WzHD5H" xmi:id="_DVGDVHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" type="id_String" value="tld-api@groupe-atlantic.co.uk" xmi:id="_DVGDVXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:dB1AmbN7dSLJculQVlQ8a37hC4CKjZXGZFsIhIK5NK0LixGp0qM=" xmi:id="_DVGDVnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:EMVqxWP0zA/PTVkPkJ/SfWvkumdSZcJMM7mDZS4yaUL6Q8KRkrhoLKNCI5bWtSWvjOEr+A==" xmi:id="_DVGDV3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" type="id_String" value="https://gauk.my.salesforce.com/services/Soap/u/39.0" xmi:id="_DVGDWHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="saveSFID" prompt="saveSFID?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDWXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Environment" prompt="Email_Environment?" promptNeeded="false" type="id_String" value="TALEND_PROD" xmi:id="_DVGDWnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_ToAddress" prompt="Email_ToAddress?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDW3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_FromAddress" prompt="Email_FromAddress?" promptNeeded="false" type="id_String" value="TALEND@IDEALBOILERS.COM" xmi:id="_DVGDXHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDXXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_SMTP" prompt="Email_SMTP?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDXnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Port" prompt="DB_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDX3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_AccountNumber" prompt="BANK_AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDYHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_SortCode" prompt="BANK_SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDYXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_StatementText" prompt="BANK_StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDYnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_DVGDY3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Products" prompt="Filepath_Products?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_S004_CreateProducts/ProductBulk.csv" xmi:id="_DVGDZHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDZXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_ProductBrandData" prompt="Filepath_ProductBrandData?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_S004_CreateProducts/ProductBrandDataBulk.csv" xmi:id="_DVGDZnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_SalesText" prompt="Filepath_SalesText?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_S004_CreateProducts/UpdateSalesTextBulk.csv" xmi:id="_DVGDZ3YUEemf9f7czw9jxw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_DEV" xmi:id="_DVGDaHYUEemf9f7czw9jxw">
+    <contextParameter comment="" name="DB_DatabaseName" prompt="DB_DatabaseName?" promptNeeded="false" type="id_String" value="dev_gauri" xmi:id="_DVGDaXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_HostName" prompt="DB_HostName?" promptNeeded="false" type="id_String" value="10.200.150.39" xmi:id="_DVGDanYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_UserName" prompt="DB_UserName?" promptNeeded="false" type="id_String" value="Talend_Gauri_Dev" xmi:id="_DVGDa3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Password" prompt="DB_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:tWsuqhi5iS3qIMtPOYdQQ9ZLkAJXrWd52K2BmdmnRFN1YJucAI8Vw2h6GKg=" xmi:id="_DVGDbHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Client" prompt="SAP_Client?" promptNeeded="false" type="id_String" value="500" xmi:id="_DVGDbXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_HostName" prompt="SAP_HostName?" promptNeeded="false" type="id_String" value="10.200.125.12" xmi:id="_DVGDbnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_UserName" prompt="SAP_UserName?" promptNeeded="false" type="id_String" value="Talend07" xmi:id="_DVGDb3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Password" prompt="SAP_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:rvwGmn0NJM0VRPAU+4LIhRxMyH0R5WiqOFUyGjBEaiGEEFDQmwU=" xmi:id="_DVGDcHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_SystemName" prompt="SAP_SystemName?" promptNeeded="false" type="id_String" value="00" xmi:id="_DVGDcXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Language" prompt="SAP_Language?" promptNeeded="false" type="id_String" value="EN" xmi:id="_DVGDcnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_HostName" prompt="RFC_HostName?" promptNeeded="false" type="id_String" value="10.200.150.154" xmi:id="_DVGDc3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Port" prompt="RFC_Port?" promptNeeded="false" type="id_String" value="61616" xmi:id="_DVGDdHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_UserName" prompt="RFC_UserName?" promptNeeded="false" type="id_String" value="admin" xmi:id="_DVGDdXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Password" prompt="RFC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:pXS1M33Xw7FB5TCvIzjVsQIRooOxmxquYPnsg4P8i351" xmi:id="_DVGDdnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" type="id_String" value="sf-api@groupe-atlantic.co.uk.ga.gaukservd" xmi:id="_DVGDd3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:LNrZjAAnRzBxuhABtkVnXAVnikvRMxdeKnaCTrBKqvGht9Xrxg==" xmi:id="_DVGDeHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:2fH9FSNV/AczzqsTTPP5SzPG+kAXlpeoSn4xFZZhB/K741dGNjn2Jv2JMAqJpcbDOxGFHA==" xmi:id="_DVGDeXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" type="id_String" value="https://gauk--GAUKSERVD.cs101.my.salesforce.com/services/Soap/u/45.0" xmi:id="_DVGDenYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="saveSFID" prompt="saveSFID?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDe3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Environment" prompt="Email_Environment?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDfHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_ToAddress" prompt="Email_ToAddress?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDfXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_FromAddress" prompt="Email_FromAddress?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDfnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDf3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_SMTP" prompt="Email_SMTP?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDgHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Port" prompt="DB_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDgXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_AccountNumber" prompt="BANK_AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDgnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_SortCode" prompt="BANK_SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDg3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_StatementText" prompt="BANK_StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDhHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_DVGDhXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Products" prompt="Filepath_Products?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S004_CreateProducts/ProductBulk.csv" xmi:id="_DVGDhnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDh3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_ProductBrandData" prompt="Filepath_ProductBrandData?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S004_CreateProducts/ProductBrandDataBulk.csv" xmi:id="_DVGDiHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_SalesText" prompt="Filepath_SalesText?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S004_CreateProducts/UpdateSalesTextBulk.csv" xmi:id="_DVGDiXYUEemf9f7czw9jxw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_SIT" xmi:id="_DVGDinYUEemf9f7czw9jxw">
+    <contextParameter comment="" name="DB_DatabaseName" prompt="DB_DatabaseName?" promptNeeded="false" type="id_String" value="qual_sit_lans_dev" xmi:id="_DVGDi3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_HostName" prompt="DB_HostName?" promptNeeded="false" type="id_String" value="10.200.150.39" xmi:id="_DVGDjHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_UserName" prompt="DB_UserName?" promptNeeded="false" type="id_String" value="Talend_Gauri_Dev" xmi:id="_DVGDjXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Password" prompt="DB_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:CND6LxT7ewzpR1UAs/i3p/AdL3Q4sfGKtceTXxwmzS0QMr/8Gu6OQoNXDtE=" xmi:id="_DVGDjnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Client" prompt="SAP_Client?" promptNeeded="false" type="id_String" value="500" xmi:id="_DVGDj3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_HostName" prompt="SAP_HostName?" promptNeeded="false" type="id_String" value="10.200.120.71" xmi:id="_DVGDkHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_UserName" prompt="SAP_UserName?" promptNeeded="false" type="id_String" value="talend07" xmi:id="_DVGDkXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Password" prompt="SAP_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:QcGPZa0EFozu45zzZaSMmApVJY2gc6i1dNVbJdoONf6z5zjmJ5z+MLpbCio=" xmi:id="_DVGDknYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_SystemName" prompt="SAP_SystemName?" promptNeeded="false" type="id_String" value="00" xmi:id="_DVGDk3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SAP_Language" prompt="SAP_Language?" promptNeeded="false" type="id_String" value="EN" xmi:id="_DVGDlHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_HostName" prompt="RFC_HostName?" promptNeeded="false" type="id_String" value="10.200.121.42" xmi:id="_DVGDlXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Port" prompt="RFC_Port?" promptNeeded="false" type="id_String" value="61616" xmi:id="_DVGDlnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_UserName" prompt="RFC_UserName?" promptNeeded="false" type="id_String" value="admin" xmi:id="_DVGDl3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="RFC_Password" prompt="RFC_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Jqi0M/z8tJQg/gclKN85NLU3PbaaEbQV8BoXPCUNjj7o" xmi:id="_DVGDmHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" type="id_String" value="sf-api@groupe-atlantic.co.uk.ga.gauksrvsit" xmi:id="_DVGDmXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:4KZdOgb0hoNqFq3U5pMcrUMw5ErW1EAnAAHmngCsFgeeAR9wSQ==" xmi:id="_DVGDmnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:JJGF/gviVDJutCxSifG2aGVkKKLvHmP5OmEhXUzY8TcegNnOS5mnUqReSqJ2wfD5pAJ+qw==" xmi:id="_DVGDm3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" type="id_String" value="https://gauk--GAUKSRVSIT.cs83.my.salesforce.com/services/Soap/u/45.0" xmi:id="_DVGDnHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="saveSFID" prompt="saveSFID?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDnXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Environment" prompt="Email_Environment?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDnnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_ToAddress" prompt="Email_ToAddress?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDn3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_FromAddress" prompt="Email_FromAddress?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDoHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDoXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_SMTP" prompt="Email_SMTP?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDonYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="DB_Port" prompt="DB_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDo3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_AccountNumber" prompt="BANK_AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDpHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_SortCode" prompt="BANK_SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDpXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="BANK_StatementText" prompt="BANK_StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDpnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Accounts" prompt="Filepath_Accounts?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_I004_SAP_TO_SFDC_createAccounts/AccountBulk.csv" xmi:id="_DVGDp3YUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_Products" prompt="Filepath_Products?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_S004_CreateProducts/ProductBulk.csv" xmi:id="_DVGDqHYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Email_Password" prompt="Email_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_DVGDqXYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_ProductBrandData" prompt="Filepath_ProductBrandData?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_S004_CreateProducts/ProductBrandDataBulk.csv" xmi:id="_DVGDqnYUEemf9f7czw9jxw"/>
+    <contextParameter comment="" name="Filepath_SalesText" prompt="Filepath_SalesText?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_S004_CreateProducts/UpdateSalesTextBulk.csv" xmi:id="_DVGDq3YUEemf9f7czw9jxw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8516cac8-74e2-4ed8-8829-4cb4d9d852ec"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rs5iaRvUqvfPs8s72SFPd0jYj8YAmP2DCTKH6quJpLCYEYalIn/ATD4S2Kw3u9Yw6FY9J+N+LkGQ&#13;
+h6EYduRSpw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4fa7786a-236d-4624-ae05-c0c5cbc2e02d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ClT5Ckr1cWcuqLIWw1IckIXE5U1JiT3ZIrU4qtMIhrQlv3zB9kU5/wM3GrBQlH1aLNVW496wO6qD&#13;
+6dyjSpPe9w==</DigestValue></Reference></SignedInfo><SignatureValue>VISETyv9WlLtxV/FyLPAypUmhGe5hWAcXfUBdXheRAxQIrT3jX4NQ32xELcDmdTvq2SFB2mQxNfH&#13;
+cpSFxS0oQlJfxsYYqBTB8R8eJLZSgQvmyN9yLjb4enmO0reD8UyID0HAW357ewzGINBazKqsAzQT&#13;
+kPqzhJsbZ3pYWhlYiyrAKT2zDDvS/GX0Ad9wjGjl4Td3tqT3FDn7iAcfPv78NxMRgNred8O4qZ7z&#13;
+3qQHDJ08jQGNJrvoGePsBTb1CxrJQ92zRwcJkW2w007gS3rHIbMJFzu+M+mrdNuNd+Fbc0taElpZ&#13;
+Kfrap/ywj++mKLQE8WEDjjaJWaqSTDjkaSP5iQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4fa7786a-236d-4624-ae05-c0c5cbc2e02d" Target="#_8516cac8-74e2-4ed8-8829-4cb4d9d852ec"><Timestamp>2025-10-06 11:05:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

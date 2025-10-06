@@ -1,0 +1,16 @@
+{
+    "SalesAreaCheckResponse": {
+        "item": [
+            {
+                "Id": "0010Q00000Gx3XjQAJ",
+                "SAP_ERP_ID ": "01234567890",
+                "Sync_Required": "false"
+            },
+            {
+                "Id": "0010Q00000Gx3XjQAJ",
+                "SAP_ERP_ID ": "01234567890",
+                "Sync_Required": "true"
+            }
+        ]
+    }
+}

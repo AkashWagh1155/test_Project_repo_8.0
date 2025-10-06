@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x17f06a5ed1a' V1='4' name='E2EDD10005' incarnation='161'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2EDD10005' description='DG item data 1 (delivery)'>
+    <structNode t='150' idref='1'/>
+    <delimTerminator>\n</delimTerminator>
+    <child t='167' id='3' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='SEGNAM' description='Segment name'>
+      <structNode t='150' idref='1'/>
+      <delimInitiator>E2EDD10005                    </delimInitiator>
+    </child>
+    <child t='167' id='4' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MANDT' description='Client'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='5' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='16' maxSize='16' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DOCNUM' description='Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='6' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SEGNUM' description='Record number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='7' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PSGNUM' description='Parent record number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='8' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HLEVEL' description='Hierarchy level'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='11' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOT' description='Dangerous Goods - Mode-of-Transport Category'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='10' V167='21' V283='2' occurMaxTimes='1' minSize='8' maxSize='8' dataType='31' dataFormat='301' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='VALDAT' description='Selection date dangerous goods master data'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='11' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGCAO' description='Only Cargo Air Transport Permitted'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='X' description='Yes'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='13' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGNHM' description='For IDoc Only: Non-Dangerous Goods Full Transport'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TKUI' description='For IDoc Only: Identification Number Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGNU' description='For IDoc Only: Identification Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='COLNO' description='Collective Number'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='17' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='X' description='Yes'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='12' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGRES1' description='For IDoc Only: Hazard-Inducing Substance 1'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='19' V167='21' V283='2' occurMaxTimes='1' minSize='12' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGRES2' description='For IDoc Only: Hazard-Inducing Substance 2'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='20' V167='21' V283='2' occurMaxTimes='1' minSize='12' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGRES3' description='For IDoc Only: Hazard-Inducing Substance 3'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='21' V167='21' V283='2' occurMaxTimes='1' minSize='12' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGREMP' description='Hazard-inducing substance (marine pollutant)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='22' V167='21' V283='2' occurMaxTimes='1' minSize='12' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGRERQ' description='Hazard-inducing substance (reportable quantity)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGCL' description='Dangerous Goods Class'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='24' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGSC' description='Dangerous Goods Subclass'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='25' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SDBC' description='Hazard Item Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='26' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SLBE' description='Hazard Item Number (Empty Transport)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='27' V167='21' V283='2' occurMaxTimes='1' minSize='5' maxSize='5' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LDBC' description='Classification Code'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='12' maxSize='12' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LWDG' description='Dangerous Goods Regulation'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EINU' description='Tremcard Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='30' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EICN' description='Replacement Tremcard Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='31' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EMSN1' description='EmS/ERG Number 1'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='32' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EMSN2' description='EmS/ERG Number 2'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='33' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MFAG1' description='MFAG Number 1'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='34' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MFAG2' description='MFAG Number 2'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='35' V167='21' V283='2' occurMaxTimes='1' minSize='11' maxSize='11' dataType='22' dataFormat='212' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HQTU' description='Maximum Quantity per Transport Unit'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='36' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HQTUN' description='Maximum Quantity Unit'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='37' V167='21' V283='2' occurMaxTimes='1' minSize='25' maxSize='25' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PIN' description='Packing Instruction Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='38' V167='21' V283='2' occurMaxTimes='1' minSize='25' maxSize='25' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PINLQ' description='Packing Instruction Number for Limited Quantity (LQ)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='39' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PGRO' description='Packing Group'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='40' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HNU' description='Hazard Identification Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='41' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HPN1' description='Danger Label Number 1'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='42' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HPN2' description='Danger Label Number 2'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='43' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HPN3' description='Danger Label Number 3'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HPN4' description='Danger Label Number 4'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='45' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HPN5' description='Danger Label Number 5'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='46' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HPN6' description='Danger Label Number 6'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='47' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HPN7' description='Danger Label Number 7'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='48' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB1' description='Label Number 1'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='49' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB2' description='Label Number 2'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='50' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB3' description='Label Number 3'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='51' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB4' description='Label Number 4'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='52' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB5' description='Label Number 5'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='53' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB6' description='Label Number 6'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='54' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB7' description='Label Number 7'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='55' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB8' description='Label Number 8'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='56' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB9' description='Label Number 9'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='57' V167='21' V283='2' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LAB10' description='Label Number 10'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='58' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PBI' description='Poisonous by Inhalation'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='59' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='A' description='Hazard Zone A'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='60' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='B' description='Hazard Zone B'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='61' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='C' description='Hazard Zone C'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='62' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='D' description='Hazard Zone D'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='63' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='-' description='No Hazard Zone'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='64' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGPTA' description='Shipping by Mail Permitted'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='65' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='X' description='Yes'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='66' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NHME' description='For IDoc Only: Non-Dangerous Goods Empty Transport'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='67' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGSHE' description='Schedule of Class 7'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='68' V167='21' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PIMDG' description='Note on Regulation'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='69' V167='21' V283='2' occurMaxTimes='1' minSize='5' maxSize='5' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SPPRO' description='Special Provision'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='70' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MAPOL' description='Marine Pollutant'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='71' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='P' description='Marine Pollutant'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='72' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PP' description='Severe Marine Pollutant'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='73' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NP' description='Not a Marine Pollutant'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='74' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CP' description='Marine Pollutant Check Required'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='75' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E1' description='Environmentally Hazardous'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='76' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2' description='Environmentally Hazardous, Documents Only'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='77' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E3' description='Environmentally Hazardous, Labels Only'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='78' V167='21' V283='2' occurMaxTimes='1' minSize='40' maxSize='40' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EXCEP' description='Exception and Agreement Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='79' V167='21' V283='2' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='AGRNO' description='Exception and Agreement Number'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='80' V167='21' V283='2' occurMaxTimes='1' minSize='30' maxSize='30' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='REGNO' description='Approval no.'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='81' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SDGCL' description='Dangerous Goods Class'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='82' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TDGCL' description='Dangerous Goods Class'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='83' V167='21' V283='2' occurMaxTimes='1' minSize='132' maxSize='132' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LWDGN' description='Name of Dangerous Goods Regulation'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='84' V167='21' V283='2' occurMaxTimes='1' minSize='10' maxSize='10' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RVLID' description='Validity Area'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='85' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS1' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='86' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS2' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='87' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS3' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='88' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS4' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='89' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS5' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='90' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS6' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='91' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS7' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='92' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS8' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='93' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOS9' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='94' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MOSA' description='Dangerous Goods Transport Type'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='95' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGTNA' description='Transport Not Permitted'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='96' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='X' description='Yes'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='97' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DGWOS' description='Processing Status for Basic Data and Master Data'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='98' V167='21' V283='2' occurMaxTimes='1' minSize='1' maxSize='1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SCASE' description='Special Case (Packing Check)'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='99' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='5' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='X' description='Yes'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='100' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='EIMDG' description='Regulation Edition'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='101' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR1' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='102' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR2' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='103' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR3' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='104' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR4' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='105' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR5' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='106' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR6' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='107' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR7' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='108' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR8' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='109' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPR9' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='110' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPRA' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='111' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPRB' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='112' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPRC' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='113' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPRD' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='114' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPRE' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='115' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPRF' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='116' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPRG' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='117' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MSEPRH' description='Dynamic Key (Segregation Rule)'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='118' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR1' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='119' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR2' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='120' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR3' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='121' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR4' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='122' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR5' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='123' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR6' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='124' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR7' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='125' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR8' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='126' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOAR9' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='127' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MLOARA' description='Mixed loading rule'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='128' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RSMLG1' description='Regulation-dependent mixed loading group'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='129' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RSMLG2' description='Regulation-dependent mixed loading group'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='130' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RSMLG3' description='Regulation-dependent mixed loading group'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='131' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ESMLG1' description='Enterprise-spec. mixed loading groups'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='132' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ESMLG2' description='Enterprise-spec. mixed loading groups'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='133' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ESMLG3' description='Enterprise-spec. mixed loading groups'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='134' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG1' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='135' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG2' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='136' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG3' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='137' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG4' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='138' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG5' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='139' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG6' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='140' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG7' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='141' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG8' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='142' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDG9' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='143' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDGA' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='144' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDGB' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='145' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDGC' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='146' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDGE' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='147' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDGF' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='148' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PPDGG' description='Profile for Dangerous Goods User-Defined Text'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='149' V167='21' V283='2' occurMaxTimes='1' minSize='4' maxSize='4' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LFDNR' description='Counter used to differentiate between data base entries'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='150' V167='21' V283='2' occurMaxTimes='1' minSize='6' maxSize='6' dataType='12' dataFormat='213' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SUBPOS_NR' description='Subitem Counter'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='151' V167='21' V283='2' occurMaxTimes='1' minSize='17' maxSize='17' dataType='22' dataFormat='212' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DG_NET_WEIGHT' description='Dangerous goods - net weight'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='152' V167='21' V283='2' occurMaxTimes='1' minSize='17' maxSize='17' dataType='22' dataFormat='212' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DG_GROSS_WEIGHT' description='Dangerous Goods - Gross Weight'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='153' V167='21' V283='2' occurMaxTimes='1' minSize='3' maxSize='3' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DG_WEIGHT_U' description='Weight Unit'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='154' V167='21' V283='2' occurMaxTimes='1' minSize='2' maxSize='2' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LANGU' description='Language key'>
+      <structNode t='150' idref='1'/>
+    </child>
+  </rootElem>
+  <defaultRep t='181' id='155' V181='2' V170='10' V704='2' isTrimTrailingEmptyFields='true' V690='1' encoding='UTF-8' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='IDocs'>
+  </defaultRep>
+  <child t='162' id='156' V1='4' name='Representations'>
+    <child t='181' idref='155'/>
+    <child t='172' id='157' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' V690='1' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    </child>
+  </child>
+  <child t='165' id='158' V1='4' name='Document Bindings'>
+  </child>
+</root>

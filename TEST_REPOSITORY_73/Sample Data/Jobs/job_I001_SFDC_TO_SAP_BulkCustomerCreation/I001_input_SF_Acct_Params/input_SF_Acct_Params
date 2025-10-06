@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AccountReplicationRequest>
+	<item>
+		<City__c>Milton Keynes</City__c>
+		<Country__c>GB</Country__c>
+		<House_Number__c>1</House_Number__c>
+		<Id>0010Q00000Gx3XjQAJ</Id>
+		<Industry>Installer</Industry>
+		<Name>Test Business Partner Acc</Name>
+		<Phone>2344151</Phone>
+		<Post_Code__c>MK4 4EE</Post_Code__c>
+		<Region__c>Test Region</Region__c>
+		<SAP_ERP_ID__c></SAP_ERP_ID__c>
+		<Status__c>Active</Status__c>
+		<Street_1__c>Wall Street</Street_1__c>
+		<Street_2__c>Wall Street</Street_2__c>
+		<Street_3__c>Wall Street</Street_3__c>
+		<Street_4__c>Wall Street</Street_4__c>
+		<Type>Consortia Group</Type>
+	</item>
+	<item>
+		<City__c>Milton Keynes</City__c>
+		<Country__c>GB</Country__c>
+		<House_Number__c>1</House_Number__c>
+		<Id>0010Q00000Gx3XjQAJ</Id>
+		<Industry>Installer</Industry>
+		<Name>Test Business Partner Acc</Name>
+		<Phone>2344151</Phone>
+		<Post_Code__c>MK4 4EE</Post_Code__c>
+		<Region__c>Test Region</Region__c>
+		<SAP_ERP_ID__c></SAP_ERP_ID__c>
+		<Status__c>Active</Status__c>
+		<Street_1__c>Wall Street</Street_1__c>
+		<Street_2__c>Wall Street</Street_2__c>
+		<Street_3__c>Wall Street</Street_3__c>
+		<Street_4__c>Wall Street</Street_4__c>
+		<Type>Consortia Group</Type>
+	</item>
+</AccountReplicationRequest>

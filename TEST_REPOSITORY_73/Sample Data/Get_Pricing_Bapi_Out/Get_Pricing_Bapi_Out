@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<item>
+		<ProductCode>563605666</ProductCode>
+		<ListPrice>64.0</ListPrice>
+	</item>
+	<item>
+		<ProductCode>563605667</ProductCode>
+		<ListPrice>50.0</ListPrice>
+	</item>
+	<ErrorMessage></ErrorMessage>
+</root>

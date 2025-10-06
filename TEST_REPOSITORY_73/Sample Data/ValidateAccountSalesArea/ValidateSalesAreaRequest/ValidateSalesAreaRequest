@@ -1,0 +1,16 @@
+<ZFMAMZ_CHECK_ACCT_EXISTENCE>
+	<OUTPUT>
+		<ET_OUTPUT>
+			<item>
+				<ID></ID>
+				<KUNNR></KUNNR>
+				<RESULT></RESULT>
+			</item>
+			<item>
+				<ID></ID>
+				<KUNNR></KUNNR>
+				<RESULT></RESULT>
+			</item>
+		</ET_OUTPUT>
+	</OUTPUT>
+</ZFMAMZ_CHECK_ACCT_EXISTENCE>

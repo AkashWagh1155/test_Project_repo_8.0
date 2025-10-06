@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employees>
+    <emp>
+	    <Name>InputName</Name>
+	</emp>
+	<emp>
+	    <Name>Constant</Name>
+	</emp>
+</employees>  

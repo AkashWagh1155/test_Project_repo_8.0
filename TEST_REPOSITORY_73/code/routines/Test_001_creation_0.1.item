@@ -1,0 +1,275 @@
+package routines;
+
+
+public class Test_001_creation {
+
+	/*Get the Industry code for the given Industry*/ 
+	public static String getIndustry(String sf_brsch) {
+    	String sap_value ="";
+        
+    	if (sf_brsch.equalsIgnoreCase("Ceramic Sanitaryware")) {
+            sap_value = "0002"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Domestic")){
+        	sap_value = "0003"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Commercial/Ind")){
+        	sap_value = "0004"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Dom/Com/Ind")){
+        	sap_value = "0005"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Shower Manufacturer")){
+        	sap_value = "0020"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Window Manufacturer")){
+        	sap_value = "0030"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Boiler Manufacturer")){
+        	sap_value = "0040"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Radiator Manufacturer")){
+        	sap_value = "0050"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Plastic Extrusions")){
+        	sap_value = "0060"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Cheque Printing")){
+        	sap_value = "0070"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Door Manufacturer")){
+        	sap_value = "0080"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Caradon Head Office")){
+        	sap_value = "0090"; 
+            return sap_value;
+        }
+        if(sf_brsch.equalsIgnoreCase("Factory HouseBuilder")){
+        	sap_value = "0100"; 
+            return sap_value;
+        }
+        return sap_value;
+    }
+     
+
+     /*Get the Account code for the given Account  type*/
+     public static String getAccountType(String sf_acctType) {
+    	 
+    	 String sap_value = "";
+    	 if(sf_acctType.equalsIgnoreCase("Sold-to party")){
+          	sap_value = "0001"; 
+            return sap_value;
+         }
+    	  
+    	 if(sf_acctType.equalsIgnoreCase("Ship-to party")){
+           	sap_value = "0002"; 
+            return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Utilities")){
+    		 sap_value = "9099"; 
+             return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Contractor")){
+         	 sap_value = "9100"; 
+         	 return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Installer")){
+          	sap_value = "9101"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("New Build")){
+          	sap_value = "9102"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Housing Association")){
+          	sap_value = "9103"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Bathroom Boutiques")){
+          	sap_value = "9104"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Second Line Merchants")){
+          	sap_value = "9105"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Developer/Housebuilder")){
+          	sap_value = "9106"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Architects")){
+          	sap_value = "9107"; 
+          	return sap_value;
+         }
+    	 if(sf_acctType.equalsIgnoreCase("End User")){
+          	sap_value = "9108"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Other")){
+          	sap_value = "9109"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Supplier")){
+          	sap_value = "9110"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Consultant/Specifier")){
+          	sap_value = "9111"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Local Authority")){
+          	sap_value = "9112"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Competitor")){
+          	sap_value = "9114"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Consortia Group")){
+          	sap_value = "9115"; 
+          	return sap_value;
+         }
+    	 
+    	 if(sf_acctType.equalsIgnoreCase("Electrical Distributor")){
+          	sap_value = "9116"; 
+          	return sap_value;
+         }
+    	 
+    	 return sap_value;
+    	  
+     }
+     
+     
+     /*Name1*/
+     public static String getName1(String sf_name){
+    	 
+    	 int lengthOfSFName = sf_name.length();
+    	 String Name1="";
+    	 System.out.println("Name1 method");
+    	 
+    	 if(lengthOfSFName == 0)
+    	 {
+    	        Name1 = "";
+    	        //System.out.println(Name1);
+    	        return Name1;
+    	 }
+    	 else if(lengthOfSFName <=35)
+    	 {
+    		 	Name1 = sf_name.substring(0, lengthOfSFName);
+    		 	//System.out.println(Name1);
+    		 	return Name1;
+         }
+    	 else 
+    	 {
+    		 	Name1 = sf_name.substring(0, 35);
+    		 	//System.out.println(Name1);
+    		 	return Name1;
+         }  	 
+    	 
+     }
+     
+     /*Name2*/
+     public static String getName2(String sf_name){
+    	 
+    	 int lengthOfSFName = sf_name.length();
+    	 String Name2="";
+    	 System.out.println("Name2 method");
+    	 
+    	 if(lengthOfSFName == 0 || lengthOfSFName <=35)
+    	 {
+    		 	Name2 = "";
+    	        //System.out.println(Name2);
+    	        return Name2;
+    	 }
+    	 else if(lengthOfSFName >35 && lengthOfSFName<=70)
+    	 {
+    		 	Name2 = sf_name.substring(35, lengthOfSFName);
+    		 	//System.out.println(Name2);
+    		 	return Name2;
+         }
+    	 else 
+    	 {
+    		 	Name2 = sf_name.substring(35, 70);
+    		 	//System.out.println(Name2);
+    		 	return Name2;
+         }
+    	 
+     }
+     
+     /*Name3*/
+     public static String getName3(String sf_name){
+    	 
+    	 int lengthOfSFName = sf_name.length();
+    	 String Name3="";
+    	 
+    	 if(lengthOfSFName == 0 || lengthOfSFName <=70)
+    	 {
+    		 Name3 = "";
+    	        //System.out.println(Name3);
+    	        return Name3;
+    	 }
+    	 else if(lengthOfSFName > 70 && lengthOfSFName<=105)
+    	 {
+    		 	Name3 = sf_name.substring(70, lengthOfSFName);
+    		 	//System.out.println(Name3);
+    		 	return Name3;
+         }	 
+    	 else 
+    	 {
+    		 	Name3 = sf_name.substring(70, 105);
+    		 	//System.out.println(Name3);
+    		 	return Name3;
+         }
+    	
+     }
+     
+     /*Name3*/
+     public static String getName4(String sf_name){
+    	 
+    	 int lengthOfSFName = sf_name.length();
+    	 String Name4="";
+    	 
+    	 if(lengthOfSFName == 0 || lengthOfSFName <=105)
+    	 {
+    		 	Name4 = "";
+    	        return Name4;
+    	 }
+    	 else if(lengthOfSFName > 105 && lengthOfSFName<=140)
+    	 {
+    		 	Name4 = sf_name.substring(105, lengthOfSFName);
+    		 	return Name4;
+         }	 
+    	 else 
+    	 {
+    		 	Name4 = sf_name.substring(105, 140);
+    		 	return Name4;
+         }
+    	
+     }
+}

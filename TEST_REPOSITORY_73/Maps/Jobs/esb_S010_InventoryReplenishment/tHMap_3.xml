@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/esb_S010_SFDC_TO_SAP_InventoryReplenishment/03_SAP_IVR_BAPI_OutputXml.xml' outStruct='Structures/Jobs/esb_S010_SFDC_TO_SAP_InventoryReplenishment/04_1_IVR_SF_Response.xml' inputRep='172' outputRep='177' nextMap='' inputStructUserName='03_SAP_IVR_BAPI_OutputXml' outputStructUserName='04_1_IVR_SF_Response' V1='4' name='tHMap_3' incarnation='2549'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='122' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ZFMSM_INVENTORY_MGMNT'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='25' V200='8' input='true' structElemExists='true' usedCount='112' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OUTPUT'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='26' V200='8' input='true' structElemExists='true' usedCount='16' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ES_ERROR'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='27' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TYPE'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='28' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ID'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='29' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NUMBER'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='30' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MESSAGE'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='31' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LOG_NO'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='32' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LOG_MSG_NO'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='33' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MESSAGE_V1'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='34' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MESSAGE_V2'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='35' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MESSAGE_V3'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='36' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MESSAGE_V4'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='37' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PARAMETER'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='38' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ROW'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='39' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='FIELD'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='40' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SYSTEM'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+      <child t='200' id='41' V200='8' input='true' structElemExists='true' usedCount='96' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ES_SUCCESS'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='42' V200='8' input='true' structElemExists='true' usedCount='96' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='43' V200='8' input='true' structElemExists='true' usedCount='48' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ORDER_NO_1'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='44' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='VBELN'>
+              <mapNode t='190' idref='1'/>
+            </child>
+            <child t='200' id='45' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DELNUM'>
+              <mapNode t='190' idref='1'/>
+            </child>
+            <child t='200' id='46' V200='8' input='true' structElemExists='true' usedCount='24' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ITEM'>
+              <mapNode t='190' idref='1'/>
+              <child t='200' id='47' V200='8' input='true' structElemExists='true' usedCount='24' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+                <mapNode t='190' idref='1'/>
+                <child t='200' id='48' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='POSNR'>
+                  <mapNode t='190' idref='1'/>
+                </child>
+                <child t='200' id='49' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MATNR'>
+                  <mapNode t='190' idref='1'/>
+                </child>
+              </child>
+            </child>
+          </child>
+          <child t='200' id='50' V200='8' input='true' structElemExists='true' usedCount='48' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ORDER_NO_2'>
+            <mapNode t='190' idref='1'/>
+            <child t='200' id='51' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='VBELN'>
+              <mapNode t='190' idref='1'/>
+            </child>
+            <child t='200' id='52' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DELNUM'>
+              <mapNode t='190' idref='1'/>
+            </child>
+            <child t='200' id='53' V200='8' input='true' structElemExists='true' usedCount='24' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ITEM'>
+              <mapNode t='190' idref='1'/>
+              <child t='200' id='54' V200='8' input='true' structElemExists='true' usedCount='24' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+                <mapNode t='190' idref='1'/>
+                <child t='200' id='55' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='POSNR'>
+                  <mapNode t='190' idref='1'/>
+                </child>
+                <child t='200' id='56' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MATNR'>
+                  <mapNode t='190' idref='1'/>
+                </child>
+              </child>
+            </child>
+          </child>
+        </child>
+      </child>
+    </child>
+    <child t='200' id='57' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TABLES'>
+      <mapNode t='190' idref='1'/>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='137' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/ZFMSM_INVENTORY_MGMNT,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='4' V200='8' structElemExists='true' usedCount='127' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='Inventory_Response'>
+      <mapNode t='190' idref='1'/>
+      <emit>IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_ERROR)</emit>
+      <child t='200' id='5' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Error_Message'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_ERROR/MESSAGE</value>
+      </child>
+      <child t='200' id='6' V200='8' structElemExists='true' usedCount='55' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='Order_No_1'>
+        <mapNode t='190' idref='1'/>
+        <emit>IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1)</emit>
+        <child t='200' id='7' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Sales_Order_Number'>
+          <mapNode t='190' idref='1'/>
+          <value>IfThen(IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/VBELN),Java([className="routines.Routine_esb_S010_InventoryReplenishment",methodName="removeZeroes"],in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/VBELN))</value>
+        </child>
+        <child t='200' id='8' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Delivery_Number'>
+          <mapNode t='190' idref='1'/>
+          <value>IfThen(IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/DELNUM),Java([className="routines.Routine_esb_S010_InventoryReplenishment",methodName="removeZeroes"],in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/DELNUM))</value>
+        </child>
+        <child t='200' id='9' V200='8' structElemExists='true' usedCount='28' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Item'>
+          <mapNode t='190' idref='1'/>
+          <loop>SimpleLoop(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/ITEM/item,{Filter},{Sort Keys},{Contexts})</loop>
+          <child t='200' id='10' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Sales_Order_Item_Number'>
+            <mapNode t='190' idref='1'/>
+            <value>IfThen(IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/ITEM/item/POSNR),Java([className="routines.Routine_esb_S010_InventoryReplenishment",methodName="removeZeroes"],in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/ITEM/item/POSNR))</value>
+          </child>
+          <child t='200' id='11' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Legacy_Product_Id'>
+            <mapNode t='190' idref='1'/>
+            <value>IfThen(IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/ITEM/item/MATNR),Java([className="routines.Routine_esb_S010_InventoryReplenishment",methodName="removeZeroes"],in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_1/ITEM/item/MATNR))</value>
+          </child>
+        </child>
+      </child>
+      <child t='200' id='12' V200='8' structElemExists='true' usedCount='55' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='Order_No_2'>
+        <mapNode t='190' idref='1'/>
+        <emit>IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2)</emit>
+        <child t='200' id='13' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Sales_Order_Number'>
+          <mapNode t='190' idref='1'/>
+          <value>IfThen(IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/VBELN),Java([className="routines.Routine_esb_S010_InventoryReplenishment",methodName="removeZeroes"],in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/VBELN))</value>
+        </child>
+        <child t='200' id='14' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Delivery_Number'>
+          <mapNode t='190' idref='1'/>
+          <value>IfThen(IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/DELNUM),Java([className="routines.Routine_esb_S010_InventoryReplenishment",methodName="removeZeroes"],in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/DELNUM))</value>
+        </child>
+        <child t='200' id='15' V200='8' structElemExists='true' usedCount='28' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Item'>
+          <mapNode t='190' idref='1'/>
+          <loop>SimpleLoop(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/ITEM/item,{Filter},{Sort Keys},{Contexts})</loop>
+          <child t='200' id='16' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Sales_Order_Item_Number'>
+            <mapNode t='190' idref='1'/>
+            <value>IfThen(IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/ITEM/item/POSNR),Java([className="routines.Routine_esb_S010_InventoryReplenishment",methodName="removeZeroes"],in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/ITEM/item/POSNR))</value>
+          </child>
+          <child t='200' id='17' V200='8' structElemExists='true' usedCount='10' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Legacy_Product_Id'>
+            <mapNode t='190' idref='1'/>
+            <value>IfThen(IsPresent(in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/ITEM/item/MATNR),Java([className="routines.Routine_esb_S010_InventoryReplenishment",methodName="removeZeroes"],in$/ZFMSM_INVENTORY_MGMNT/OUTPUT/ES_SUCCESS/item/ORDER_NO_2/ITEM/item/MATNR))</value>
+          </child>
+        </child>
+      </child>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='692' id='61' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/Jobs_esb_S010_SFDC_TO_SAP_InventoryReplenishment.xml'/>
+  </inputRepRuntime>
+  <outputRepRuntime t='697' id='62' V697='1' V690='1' padOutput='true'>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' idref='61'/>
+  <outputXmlRepRuntime t='692' id='63' V692='1' V690='1'>
+  </outputXmlRepRuntime>
+  <child t='165' id='21' V1='4' name='Document Bindings'>
+    <child t='166' id='22' V166='5' docType='1' docReposPath='/SALESFORCE/Sample Data/Jobs/esb_S010_SFDC_TO_SAP_InventoryReplenishment/03_SAP_IVR_BAPI_OutputXml/03_SAP_IVR_BAPI_OutputXml' V1='4' name='in$/ZFMSM_INVENTORY_MGMNT'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='23' V166='5' docType='2' docReposPath='/SALESFORCE/Sample Data/Jobs/esb_S010_SFDC_TO_SAP_InventoryReplenishment/04_1_IVR_SF_Response/Response' V1='4' name='out$/Root'>
+      <elemNode t='200' idref='3'/>
+    </child>
+  </child>
+  <child t='201' id='24' V1='4' name='Inherits From'>
+  </child>
+</root>

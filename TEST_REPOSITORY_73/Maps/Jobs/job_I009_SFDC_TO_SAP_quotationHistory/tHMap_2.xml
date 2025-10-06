@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/quoteHistoryBapiOutput.xml' outStruct='Structures/quoteHistoryResponse.xml' inputRep='172' outputRep='172' nextMap='' inputStructUserName='quoteHistoryBapiOutput' outputStructUserName='quoteHistoryResponse' V1='4' name='tHMap_2' incarnation='265'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ZFMQM_QUOTE_DOCFLOW'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OUTPUT'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ET_DOCFLOW'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DOCNUM'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='13' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='VBTYP_N'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='14' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DOCNUV'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='15' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='VBTYP_V'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='16' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DESCRIPTION'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='17' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='HLEVEL'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='18' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ERDAT'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='19' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='STATUS'>
+            <mapNode t='190' idref='1'/>
+          </child>
+        </child>
+      </child>
+    </child>
+    <child t='200' id='20' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TABLES'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='21' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CT_RETURN'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='22' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='23' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='TYPE'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='24' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ID'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='25' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NUMBER'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='26' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='MESSAGE'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='27' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='LOG_MSG_NO'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='28' V200='8' input='true' structElemExists='true' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ROW'>
+            <mapNode t='190' idref='1'/>
+          </child>
+        </child>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='20' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='QuoteDocumentFlow'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/ZFMQM_QUOTE_DOCFLOW,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='29' V200='8' structElemExists='true' usedCount='14' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='QuoteDocument'>
+      <mapNode t='190' idref='1'/>
+      <loop>SimpleLoop(in$/ZFMQM_QUOTE_DOCFLOW/OUTPUT/ET_DOCFLOW/item,{Filter},{Sort Keys},{Contexts})</loop>
+      <child t='200' id='30' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CurrentDocumentNumber'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/ZFMQM_QUOTE_DOCFLOW/OUTPUT/ET_DOCFLOW/item/DOCNUM</value>
+      </child>
+      <child t='200' id='31' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='PrecedingDocumentNumber'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/ZFMQM_QUOTE_DOCFLOW/OUTPUT/ET_DOCFLOW/item/DOCNUV</value>
+      </child>
+      <child t='200' id='32' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Description'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/ZFMQM_QUOTE_DOCFLOW/OUTPUT/ET_DOCFLOW/item/DESCRIPTION</value>
+      </child>
+      <child t='200' id='33' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Level'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/ZFMQM_QUOTE_DOCFLOW/OUTPUT/ET_DOCFLOW/item/HLEVEL</value>
+      </child>
+      <child t='200' id='34' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='CreationDate'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/ZFMQM_QUOTE_DOCFLOW/OUTPUT/ET_DOCFLOW/item/ERDAT</value>
+      </child>
+      <child t='200' id='35' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='DocumentStatus'>
+        <mapNode t='190' idref='1'/>
+        <value>in$/ZFMQM_QUOTE_DOCFLOW/OUTPUT/ET_DOCFLOW/item/STATUS</value>
+      </child>
+    </child>
+    <child t='200' id='36' V200='8' structElemExists='true' usedCount='2' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='ErrorMessage'>
+      <mapNode t='190' idref='1'/>
+      <value>in$/ZFMQM_QUOTE_DOCFLOW/TABLES/CT_RETURN/item/MESSAGE</value>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='692' id='37' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/quoteHistoryBapiOut.xml'/>
+  </inputRepRuntime>
+  <outputRepRuntime t='692' id='4' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/quoteHistoryOut.xml'/>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' idref='37'/>
+  <outputXmlRepRuntime t='692' idref='4'/>
+  <child t='165' id='5' V1='4' name='Document Bindings'>
+    <child t='166' id='6' V166='5' docType='1' docReposPath='/SALESFORCE/Sample Data/quoteHistoryBapiOutput/quoteHistoryBapiOut' V1='4' name='in$/ZFMQM_QUOTE_DOCFLOW'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='7' V166='5' docType='2' V1='4' name='out$/QuoteDocumentFlow'>
+      <elemNode t='200' idref='3'/>
+    </child>
+  </child>
+  <child t='201' id='8' V1='4' name='Inherits From'>
+  </child>
+</root>

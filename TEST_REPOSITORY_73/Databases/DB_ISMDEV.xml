@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='240' id='1' V240='4' databaseType='mysql' databaseName='dev_gauri' urlPattern='jdbc:mysql://${hostPort}/${databaseName}?zeroDateTimeBehavior=convertToNull&amp;transformedBitIsBoolean=false&amp;tinyInt1isBit=false' userName='Talend_Gauri_Dev' password='djQh4PQV8KQBxK9b' hostPort='HULLMYSQLDEV1:3306' driverClassName='com.mysql.jdbc.Driver' xaDataSourceClassName='com.mysql.jdbc.jdbc2.optional.MysqlXADataSource' hibernateDialect='org.hibernate.dialect.MySQLDialect' structDir='Structures/DB_ISMDEV' defaultPrimaryKeyColumns='-1' V1='4' name='DB_ISMDEV' incarnation='6'>
+</root>

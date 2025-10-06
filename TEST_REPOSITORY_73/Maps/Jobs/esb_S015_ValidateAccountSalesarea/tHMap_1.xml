@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/ValidateAccountSalesArea/ValidateSalesAreaRequest.xml' outStruct='Structures/ValidateAccountSalesArea/ValidateSalesAreaResponse.xml' inputRep='172' outputRep='177' nextMap='' inputStructUserName='ValidateSalesAreaRequest' outputStructUserName='ValidateSalesAreaResponse' V1='4' name='tHMap_1' incarnation='249'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='56' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ZFMAMZ_CHECK_ACCT_EXISTENCE'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='16' V200='8' input='true' structElemExists='true' usedCount='45' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='OUTPUT'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='17' V200='8' input='true' structElemExists='true' usedCount='45' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ET_OUTPUT'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='18' V200='8' input='true' structElemExists='true' usedCount='36' V283='2' occurMinTimes='1' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='item'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='19' V200='8' input='true' structElemExists='true' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ID'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='20' V200='8' input='true' structElemExists='true' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='KUNNR'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='21' V200='8' input='true' structElemExists='true' usedCount='9' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RESULT'>
+            <mapNode t='190' idref='1'/>
+          </child>
+        </child>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='3' V200='8' structElemExists='true' usedCount='62' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='Root'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/ZFMAMZ_CHECK_ACCT_EXISTENCE,{Filter},{Sort Keys},{Contexts})</loop>
+    <child t='200' id='4' V200='8' structElemExists='true' usedCount='51' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_emit='true' V1='4' name='SalesAreaCheckResponse'>
+      <mapNode t='190' idref='1'/>
+      <emit>IsPresent(in$/ZFMAMZ_CHECK_ACCT_EXISTENCE/OUTPUT/ET_OUTPUT)</emit>
+      <child t='200' id='5' V200='8' structElemExists='true' usedCount='41' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='item'>
+        <mapNode t='190' idref='1'/>
+        <loop>SimpleLoop(in$/ZFMAMZ_CHECK_ACCT_EXISTENCE/OUTPUT/ET_OUTPUT/item,{Filter},{Sort Keys},{Contexts})</loop>
+        <child t='200' id='6' V200='8' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Id'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAMZ_CHECK_ACCT_EXISTENCE/OUTPUT/ET_OUTPUT/item/ID</value>
+        </child>
+        <child t='200' id='7' V200='8' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' externalName='SAP_ERP_ID ' V281='13' modifiedFromParent_value='true' V1='4' name='SAP_ERP_ID_'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAMZ_CHECK_ACCT_EXISTENCE/OUTPUT/ET_OUTPUT/item/KUNNR</value>
+        </child>
+        <child t='200' id='8' V200='8' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Sync_Required'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/ZFMAMZ_CHECK_ACCT_EXISTENCE/OUTPUT/ET_OUTPUT/item/RESULT</value>
+        </child>
+      </child>
+    </child>
+  </outputMapElem>
+  <inputRepRuntime t='692' id='9' V692='1' unnamedElemsNamespace='1' V690='1'>
+    <namespaceContainers t='220' ref='Namespace Containers/ValidateAccountSalesArea.xml'/>
+  </inputRepRuntime>
+  <outputRepRuntime t='697' id='23' V697='1' V690='1' padOutput='true'>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' idref='9'/>
+  <outputXmlRepRuntime t='692' id='22' V692='1' V690='1'>
+  </outputXmlRepRuntime>
+  <child t='165' id='12' V1='4' name='Document Bindings'>
+    <child t='166' id='13' V166='5' docType='1' docReposPath='/SALESFORCE/Sample Data/ValidateAccountSalesArea/ValidateSalesAreaRequest/ValidateSalesAreaRequest' V1='4' name='in$/ZFMAMZ_CHECK_ACCT_EXISTENCE'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='14' V166='5' docType='2' docReposPath='/SALESFORCE/Sample Data/ValidateAccountSalesArea/ValidateSalesAreaResponse/ValidateSalesAreaResponse' V1='4' name='out$/Root'>
+      <elemNode t='200' idref='3'/>
+    </child>
+  </child>
+  <child t='201' id='15' V1='4' name='Inherits From'>
+  </child>
+</root>

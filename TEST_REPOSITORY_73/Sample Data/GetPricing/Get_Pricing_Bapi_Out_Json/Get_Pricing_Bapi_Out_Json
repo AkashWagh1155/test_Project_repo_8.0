@@ -1,0 +1,15 @@
+{
+	"root": {
+		"item": [
+			{
+				"ProductCode": "563605666",
+				"ListPrice": "64.0"
+			},
+			{
+				"ProductCode": "563605667",
+				"ListPrice": "50.0"
+			}
+		],
+		"ErrorMessage": ""
+	}
+}

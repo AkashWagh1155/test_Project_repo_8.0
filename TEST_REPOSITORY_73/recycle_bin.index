@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_Ezeg8HfLEemXALwFCK16YQ" path="Jobs/esb_S010_InventoryReplenishment" type="MAPS"/>
+  <deletedItems id="_2DSw8JDNEeyYVbDNHqR99w" path="Jobs/job_S004_CreateProducts" type="MAPS"/>
+  <deletedItems id="_AM4IUJVpEeyBscThNuYcqg" path="" type="METADATA_FILE_FTP"/>
+  <deletedItems id="_w81A4JNTEey86O_xCRqyAA" path="" type="METADATA_GENERIC_SCHEMA"/>
+  <deletedItems id="_tP1vEKp7EeyKi9iGimuLDQ" path="Connect" type="PROCESS"/>
+  <deletedItems id="_kSnVoMReEeuPO_F6OLGIBg" path="demo" type="PROCESS"/>
+  <deletedItems id="_vGA18J-YEeyGgo8WRIn3FA" path="demo" type="PROCESS"/>
+  <deletedItems id="_OBx3UAzOEe6GNdIVCPDeHQ" path="" type="ROUTE"/>
+  <deletedItems id="_OTE-YETHEemRV-xiepELWA" path="Jobs/job_I001_SFDC_TO_SAP_BulkCustomerCreation" type="STRUCTURES"/>
+</recyclebin:RecycleBin>

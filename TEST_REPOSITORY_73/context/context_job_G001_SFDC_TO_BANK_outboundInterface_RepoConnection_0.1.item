@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_dqq7EDphEembjLpP3P-gpw">
+    <contextParameter comment="" name="SortCode" prompt="SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_dqq7ETphEembjLpP3P-gpw"/>
+    <contextParameter comment="" name="AccountNumber" prompt="AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_dqq7EjphEembjLpP3P-gpw"/>
+    <contextParameter comment="" name="StatementText" prompt="StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_dqq7EzphEembjLpP3P-gpw"/>
+    <contextParameter comment="" name="SuccessFilepath" prompt="SuccessFilepath?" promptNeeded="false" type="id_String" value="" xmi:id="_-rR2EIhREemUnceUePTLAw"/>
+    <contextParameter comment="" name="FailureFilepath" prompt="FailureFilepath?" promptNeeded="false" type="id_String" value="" xmi:id="__-W8oIhTEemUnceUePTLAw"/>
+    <contextParameter comment="" name="SuccessTempFilepath" prompt="SuccessTempFilepath?" promptNeeded="false" type="id_String" value="" xmi:id="_bI41QI0rEemxHL1pHj2hFg"/>
+    <contextParameter comment="" name="FailureTempFilepath" prompt="FailureTempFilepath?" promptNeeded="false" type="id_String" value="" xmi:id="_bI41QY0rEemxHL1pHj2hFg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_DEV" xmi:id="_NSYKQJdkEem6pvgBzDKZCA">
+    <contextParameter comment="" name="SortCode" prompt="SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_NSYKQZdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="AccountNumber" prompt="AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_NSYKQpdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="StatementText" prompt="StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_NSYKQ5dkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="SuccessFilepath" prompt="SuccessFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\DEV\SUCCESS\" xmi:id="_NSYKRJdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="FailureFilepath" prompt="FailureFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\DEV\FAILURE\" xmi:id="_NSYKRZdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="SuccessTempFilepath" prompt="SuccessTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/SUCCESS/" xmi:id="_NSYKRpdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="FailureTempFilepath" prompt="FailureTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/FAILURE/" xmi:id="_NSYKR5dkEem6pvgBzDKZCA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_SIT" xmi:id="_NSYKSJdkEem6pvgBzDKZCA">
+    <contextParameter comment="" name="SortCode" prompt="SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_NSYKSZdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="AccountNumber" prompt="AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_NSYKSpdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="StatementText" prompt="StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_NSYKS5dkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="SuccessFilepath" prompt="SuccessFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\SIT\SUCCESS\" xmi:id="_NSYKTJdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="FailureFilepath" prompt="FailureFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\SIT\FAILURE\" xmi:id="_NSYKTZdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="SuccessTempFilepath" prompt="SuccessTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/SUCCESS/" xmi:id="_NSYKTpdkEem6pvgBzDKZCA"/>
+    <contextParameter comment="" name="FailureTempFilepath" prompt="FailureTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/FAILURE/" xmi:id="_NSYKT5dkEem6pvgBzDKZCA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_QdcIxohVEemUnceUePTLAw">
+    <contextParameter comment="" name="SortCode" prompt="SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIx4hVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="AccountNumber" prompt="AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIyIhVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="StatementText" prompt="StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIyYhVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="SuccessFilepath" prompt="SuccessFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\PRD\SUCCESS\" xmi:id="_QdcIyohVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="FailureFilepath" prompt="FailureFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\PRD\FAILURE\" xmi:id="_QdcIy4hVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="SuccessTempFilepath" prompt="SuccessTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/SUCCESS/" xmi:id="_bI41RI0rEemxHL1pHj2hFg"/>
+    <contextParameter comment="" name="FailureTempFilepath" prompt="FailureTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/FAILURE/" xmi:id="_bI41RY0rEemxHL1pHj2hFg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_DEV" xmi:id="_QdcIwIhVEemUnceUePTLAw">
+    <contextParameter comment="" name="SortCode" prompt="SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIwYhVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="AccountNumber" prompt="AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIwohVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="StatementText" prompt="StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIw4hVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="SuccessFilepath" prompt="SuccessFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\DEV\SUCCESS\" xmi:id="_QdcIxIhVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="FailureFilepath" prompt="FailureFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\DEV\FAILURE\" xmi:id="_QdcIxYhVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="SuccessTempFilepath" prompt="SuccessTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/SUCCESS/" xmi:id="_bI41Qo0rEemxHL1pHj2hFg"/>
+    <contextParameter comment="" name="FailureTempFilepath" prompt="FailureTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/FAILURE/" xmi:id="_bI41Q40rEemxHL1pHj2hFg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_SIT" xmi:id="_QdcIzIhVEemUnceUePTLAw">
+    <contextParameter comment="" name="SortCode" prompt="SortCode?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIzYhVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="AccountNumber" prompt="AccountNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIzohVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="StatementText" prompt="StatementText?" promptNeeded="false" type="id_String" value="" xmi:id="_QdcIz4hVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="SuccessFilepath" prompt="SuccessFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\SIT\SUCCESS\" xmi:id="_QdcI0IhVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="FailureFilepath" prompt="FailureFilepath?" promptNeeded="false" type="id_String" value="SALESFORCE\GLEDHILL\SIT\FAILURE\" xmi:id="_QdcI0YhVEemUnceUePTLAw"/>
+    <contextParameter comment="" name="SuccessTempFilepath" prompt="SuccessTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/SUCCESS/" xmi:id="_bI41Ro0rEemxHL1pHj2hFg"/>
+    <contextParameter comment="" name="FailureTempFilepath" prompt="FailureTempFilepath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/SIT/job_G001_SFDC_TO_BANK_outboundInterface_RepoConnection/FAILURE/" xmi:id="_bI41R40rEemxHL1pHj2hFg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1d2b7f53-d42f-4448-a847-ca0ed3bf5f12"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>93StgoJWZUijhHB0uyMiquSyFQClIztsYDrtaENJZrZdK9tG0msnSGh/C8NyTbFoWBukg7lDPnqz&#13;
+FomXG1oPvA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_95f19e7d-1306-4263-85d7-4242810a673c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LBNxt9SOeHfi881DBTiyao9OREeH9WssEmwh3iig3zxPHTBM4/2u1tXP3C0eRxipDjARFk49Niu4&#13;
+tR7dzch0rA==</DigestValue></Reference></SignedInfo><SignatureValue>CVN33dtpvuyBlV5Hh+eQF6HHkQsaimLYU/5XQ+I6oqMniCnUuZVjAuK8ddIYd3EAjzRWIltnNubB&#13;
+tlp6g9DpUcvK1R6yXt3jFMzJdgMNqp6oMUdbTaWRGkfVeabN15MAuL6i69N7KHuZaFi0HT9TQbVG&#13;
+qgP7e89jDWxCBiWPa9hR4a4mgYaC7gtfmOWGGOId7OgJKCiw9O2rppgY++uhecv0BVRQ9Kcu5xOY&#13;
+4TEwNXg6ouM9z2WyzLziuXu9+dIGwy0D2WICBf3andC0aE//0UJCbr4zKfHSl0qNHfNmExXc60a1&#13;
+++J1H6jMGUhvRYgtXKMzYk6bbHoZd1kCR55Pqw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_95f19e7d-1306-4263-85d7-4242810a673c" Target="#_1d2b7f53-d42f-4448-a847-ca0ed3bf5f12"><Timestamp>2025-10-06 11:05:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

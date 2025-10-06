@@ -1,0 +1,12 @@
+<AccountReplicationResponse>
+<item>
+<Id><![CDATA[0010Q00000Gx3XjQAJ]]></Id>
+<SAP_ERP_ID__c><![CDATA[0004000104]]></SAP_ERP_ID__c>
+<ErrorMessage></ErrorMessage>
+</item>
+<item>
+<Id><![CDATA[0010Q00000Gx3XjQAJ]]></Id>
+<SAP_ERP_ID__c></SAP_ERP_ID__c>
+<ErrorMessage><![CDATA[Account group not valid]]></ErrorMessage>
+</item>
+</AccountReplicationResponse>

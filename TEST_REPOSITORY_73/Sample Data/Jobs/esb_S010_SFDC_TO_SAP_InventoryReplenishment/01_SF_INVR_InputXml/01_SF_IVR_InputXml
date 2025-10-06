@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Inventory_Request>
+<Scenario_Ref>Stock Consumption</Scenario_Ref>
+<Order_Type>ZKE</Order_Type>
+<Sales_Org>Ideal</Sales_Org>
+<Need_By_Date>20190516</Need_By_Date>
+<Work_Order_Id></Work_Order_Id>
+<Work_Order_Item_Id>0WO0Q0000005fYfWAI</Work_Order_Item_Id>
+<Header_Reference_Id>0WO0Q0000005fYfWAI</Header_Reference_Id>
+<Header_Reference_Number>00004177</Header_Reference_Number>
+<Order_Items>
+<Item_Number>20</Item_Number>
+<Legacy_Product_Id></Legacy_Product_Id>
+<Item_Reference_Id>0Gv0Q0000008RNuSAM</Item_Reference_Id>
+<Item_Reference_Number>PC-273</Item_Reference_Number>
+<Quantity>2</Quantity>
+</Order_Items>
+<Order_Items>
+<Item_Number>20</Item_Number>
+<Legacy_Product_Id></Legacy_Product_Id>
+<Item_Reference_Id>0Gv0Q0000008RNuSAM</Item_Reference_Id>
+<Item_Reference_Number>PC-274</Item_Reference_Number>
+<Quantity>2</Quantity>
+</Order_Items>
+<Partners>
+<Partner_Role>AG</Partner_Role>
+<Partner_Number/>
+</Partners >
+<Partners>
+<Partner_Role>SH</Partner_Role>
+<Partner_Number>0000310211</Partner_Number>
+</Partners >
+</Inventory_Request>

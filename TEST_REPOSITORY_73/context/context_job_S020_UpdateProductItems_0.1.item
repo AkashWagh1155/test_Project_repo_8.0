@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_dF0JEBEOEeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_sSuYIREOEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_LogFilePath" prompt="EngineerInventoryReset_LogFilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_EowH0BEPEeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_FilePath" prompt="EngineerInventoryReset_FilePath?" promptNeeded="false" type="id_String" value="" xmi:id="_EowH0REPEeqJzs6oVoRetA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_SIT" xmi:id="_UnATABG5EeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/QAS/job_S020_UpdateProductItems/" xmi:id="_UnATARG5EeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_LogFilePath" prompt="EngineerInventoryReset_LogFilePath?" promptNeeded="false" type="id_String" value="SALESFORCE\ENGINEERPRODUCTDETAILS\QAS\LOG" xmi:id="_UnATAhG5EeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_FilePath" prompt="EngineerInventoryReset_FilePath?" promptNeeded="false" type="id_String" value="SALESFORCE\ENGINEERPRODUCTDETAILS\QAS\EXTRACT" xmi:id="_UnATAxG5EeqJzs6oVoRetA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_UnATBBG5EeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/PRD/job_S020_UpdateProductItems/" xmi:id="_UnATBRG5EeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_LogFilePath" prompt="EngineerInventoryReset_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Spares\ENGINEERPRODUCTDETAILS\LOG" xmi:id="_UnATBhG5EeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_FilePath" prompt="EngineerInventoryReset_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Spares\ENGINEERPRODUCTDETAILS\EXTRACT" xmi:id="_UnATBxG5EeqJzs6oVoRetA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_DEV" xmi:id="_UnATCBG5EeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/DEV/job_S020_UpdateProductItems/" xmi:id="_UnATCRG5EeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_LogFilePath" prompt="EngineerInventoryReset_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\ENGINEERPRODUCTDETAILS\DEV\LOG" xmi:id="_UnATChG5EeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_FilePath" prompt="EngineerInventoryReset_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\ENGINEERPRODUCTDETAILS\DEV\EXTRACT" xmi:id="_UnATCxG5EeqJzs6oVoRetA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_SIT" xmi:id="_UnATDBG5EeqJzs6oVoRetA">
+    <contextParameter comment="" name="Temp_FilePath" prompt="Temp_FilePath?" promptNeeded="false" type="id_String" value="/mnt/sdc/gauri_csv/QAS/job_S020_UpdateProductItems/" xmi:id="_UnATDRG5EeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_LogFilePath" prompt="EngineerInventoryReset_LogFilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\ENGINEERPRODUCTDETAILS\QAS\LOG" xmi:id="_UnATDhG5EeqJzs6oVoRetA"/>
+    <contextParameter comment="" name="EngineerInventoryReset_FilePath" prompt="EngineerInventoryReset_FilePath?" promptNeeded="false" type="id_String" value="Salesforce_Dev\ENGINEERPRODUCTDETAILS\QAS\EXTRACT" xmi:id="_UnATDxG5EeqJzs6oVoRetA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bfcec0b1-64c2-41a7-be58-9e80a6f4dd78"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Uqd3nJrxdm+zbb+mh6ZmWm7GJFaTnse5GRCCegW6W1zu/ddtY12YlTFiYrN/ZeeTmS/eeH7920N1&#13;
+jQU3GvFhUQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_663280c4-73b9-47b1-a1de-88cc32397cf7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UWJwEeznRvgkVXaVnp3ESZR1b4ZCImWeAcUkrwTPW3GD7UwnfQNTf2rso/3MDYLAlE9Wbzf6fINM&#13;
+4Zt3EPaEwA==</DigestValue></Reference></SignedInfo><SignatureValue>lTvjQoeTqfMm1bBJDHRd3m/YefrNydB021J62pYLM0Qm6hallIyfpQWNcyYQijilsWC4V2/vLz7x&#13;
+YO3bBixe8zOrDIMG7J+qSH1yfW5vO6aRoOv0/4tHfe3OEnCEAtclG+W+z5Lf8h/2xy6dcpwXKHo1&#13;
+vGL7DfBjC7EB0YZ+AsS1YLzUmpOiU2B/tLcURXlhh9Uix9kls74fkGK71S2i3dwmeS2HZC3DYoRX&#13;
+utqGdRhtYt+eq5hWo+HFYha/m2jV7dOzTjCDu0S2toxSAMq0Z7AaLb1WF+ft0H30yyelFecMXrS+&#13;
+bw2yEvZHnuNieVQ4AL+Gf6S0GTycoAjAHBprrQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_663280c4-73b9-47b1-a1de-88cc32397cf7" Target="#_bfcec0b1-64c2-41a7-be58-9e80a6f4dd78"><Timestamp>2025-10-06 11:05:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

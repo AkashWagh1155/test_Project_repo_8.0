@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_3rrhgIhjEemzDO_mbh5h_Q">
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3rrhgYhjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_3rrhgohjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_3rrhg4hjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_3rrhhIhjEemzDO_mbh5h_Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_4Wp8EJhfEeyeVq26qFjPCg">
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;sf-api@groupe-atlantic.co.uk.ga.gaukmndev&quot;" xmi:id="_4Wp8EZhfEeyeVq26qFjPCg"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ZkEhNKw9FgG8Mrf2+CzuNzYhK2+nfycNHoMt9nmNWSVWazT6GGYRCEZTqw==" xmi:id="_4Wp8EphfEeyeVq26qFjPCg"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ydCS/rixK1iy72X8eg1y37/7Hw41APwrSMKRkq5YWJlVO0YE6UWghCmemFrzl3eT6C+org==" xmi:id="_4Wp8E5hfEeyeVq26qFjPCg"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk--gaukmndev.sandbox.my.salesforce.com/services/Soap/u/46.0&quot;" xmi:id="_4Wp8FJhfEeyeVq26qFjPCg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_DEV" xmi:id="_DWaQQJZ7EemYY70SGuaJog">
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;sf-api@groupe-atlantic.co.uk.ga.gauksmorg&quot;" xmi:id="_DWaQQZZ7EemYY70SGuaJog"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:+x7Cx9VaurawuCJqqYNoNSv9RYe+IrBHZGIbhpjKb1sUOHzP" xmi:id="_DWaQQpZ7EemYY70SGuaJog"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:XJGn95cuUGqeNs4QxP73NkHjk64FG3oPiB9ZZXN3HPy8x8RHCqCv52q0Ozc4Iqgia1hCjQ==" xmi:id="_DWaQQ5Z7EemYY70SGuaJog"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk--gauksmorg.my.salesforce.com/services/Soap/u/46.0&quot;" xmi:id="_DWaQRJZ7EemYY70SGuaJog"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="ISM_SIT" xmi:id="_DWaQRZZ7EemYY70SGuaJog">
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;tld-api@groupe-atlantic.co.uk.gauksnmsup&quot;" xmi:id="_DWaQRpZ7EemYY70SGuaJog"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:BqJBc3LE3WO2UEzB6eZssvCDkf/g+BPvfV8B4jy5b8852qoS9OM=" xmi:id="_DWaQR5Z7EemYY70SGuaJog"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:xHT47c21j5igrfQJoGovhmejN4q7N+MMFBNWdVBKntWm2E/3HTtsnpcH8whPvurzK72OzA==" xmi:id="_DWaQSJZ7EemYY70SGuaJog"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk--gauksnmsup.my.salesforce.com/services/Soap/u/46.0&quot;" xmi:id="_DWaQSZZ7EemYY70SGuaJog"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_3rrhiohjEemzDO_mbh5h_Q">
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;srvtld-api@groupe-atlantic.co.uk&quot;" xmi:id="_3rrhi4hjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:zH3AjD2mW0nBVnnb6ilkZ1GYWCZc0V/NO7wXDRNvRrZ4fEWzHoESYlmY846URg==" xmi:id="_3rrhjIhjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WhYjTAAt/OQFmDjpahpkv3qWPb7/Dj8VKCL26MAVG5difOCO5OtGBop6I4KiZWiadWxFm6k=" xmi:id="_3rrhjYhjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://login.salesforce.com/services/Soap/u/44.0&quot;" xmi:id="_3rrhjohjEemzDO_mbh5h_Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QA" xmi:id="_IHWqIJhfEeyeVq26qFjPCg">
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;srvtld-api@groupe-atlantic.co.uk.gaukqas&quot;" xmi:id="_IHWqIZhfEeyeVq26qFjPCg"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:xDrUTCI9oc84J0szyz5/z0VJnyqMNmx/nHoW0dZFmMWcN3g5rktEvc497A==" xmi:id="_IHWqIphfEeyeVq26qFjPCg"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:GEjklPL6ftVMJkE0W4o0DwBXEdwAAqeEwSLkxAzbtyH3ZEoatU8nqfMDgjQR5hAt1EmvkQ==" xmi:id="_IHWqI5hfEeyeVq26qFjPCg"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk--GAUKQAS.sandbox.my.salesforce.com/services/Soap/u/46.0&quot;" xmi:id="_IHWqJJhfEeyeVq26qFjPCg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_DEV" xmi:id="_clcCAIkpEemNh_65BWphRg">
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;sf-api@groupe-atlantic.co.uk.ga.gaukmndev&quot;" xmi:id="_clcCAYkpEemNh_65BWphRg"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:zWTJcUCr+LAyfUvVkDHO999UuT6+wCPjX8b4v8hqGByU+L9OckkUcZC82Q==" xmi:id="_clcCAokpEemNh_65BWphRg"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ylPHNRj0V3XY38xncDE7rBszSOIR5rtTvI4CGHzMHZWdzEI/HSJSLykldwayS4U0bhGSgQ==" xmi:id="_clcCA4kpEemNh_65BWphRg"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk--gaukmndev.sandbox.my.salesforce.com/services/Soap/u/46.0&quot;" xmi:id="_clcCBIkpEemNh_65BWphRg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="SRVC_SIT" xmi:id="_3rrhj4hjEemzDO_mbh5h_Q">
+    <contextParameter comment="" name="SF_UserName" prompt="SF_UserName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;srvtld-api@groupe-atlantic.co.uk.gaukqas&quot;" xmi:id="_3rrhkIhjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ps7m1tLhD/1WH7ptf9xjpOZe0famEaoKIFQemdf9/85Q14p3E4t7sAXXIA==" xmi:id="_3rrhkYhjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_SecurityToken" prompt="SF_SecurityToken?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:FDikDVr7HGuhWTmU9Qgtg+zKvVM1QkjCqUlKpWngGmzl7+wDEw8qV9rVVAV+d5T74zWdHg==" xmi:id="_3rrhkohjEemzDO_mbh5h_Q"/>
+    <contextParameter comment="" name="SF_URL" prompt="SF_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk--GAUKQAS.sandbox.my.salesforce.com/services/Soap/u/46.0&quot;" xmi:id="_3rrhk4hjEemzDO_mbh5h_Q"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2fec9ab0-8014-430e-84a4-426da4658ed6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OT1gFEu1Hl1zRWHIFcb9S4Jyjv8kqn6tXGcB896ic/QnFpQksPQ6BzHI6xauPvb8gVROPiG/PFkg&#13;
+3JAZR2ATdw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_67e82462-2d94-4aaa-aef2-2e3dc21e98d4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QTflYda/I1HoOuk5Y8gtfI1SRcIi1XPXAw/mPAIPduDwBLK8PWJdmjYwnH9GOEzcjTmpH/Y1LBxA&#13;
+Uq6Jn3Hpfw==</DigestValue></Reference></SignedInfo><SignatureValue>G/NpMZE9Jh4ZmjZaVEhKA3zi9yjtiGwvTfxFMIUtvLVyAAmVTkkrXM0Ae5xFNzBlWi+pzDfGGKgB&#13;
+0OK2a9puMfW84FTUneqZPqKgRgbjGHRiktZZmzcox4H6cHBkRq3EH883yH2ZWXFVDyChq42FYiua&#13;
+y9XjNjFhc3Tm7nM+4NVhNUWKp55J9gMrL/M5PGxvMwcjxexGemrsrp9kT6kF8fBnsKqdLnqJIoUn&#13;
+BQSD47R1jJuWB75QdiRQfMJUyBI/N/obJ9DpwEM5AmwFd7jz06+avbRrWX9p5haV6YI6a9ezAmN9&#13;
+g6/pmuIJ9uYhpRd1+BAacvPotcNkT93MCn9Sqw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_67e82462-2d94-4aaa-aef2-2e3dc21e98d4" Target="#_2fec9ab0-8014-430e-84a4-426da4658ed6"><Timestamp>2025-10-06 11:05:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

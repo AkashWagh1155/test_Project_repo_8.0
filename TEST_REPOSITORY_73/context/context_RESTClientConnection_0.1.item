@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_HY6ZsI7xEeyIZOQNqrYhJA">
+    <contextParameter comment="" name="RESTClient_URL" prompt="RESTClient_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_qkQtII7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_ClientId" prompt="RESTClient_ClientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_qkQtIY7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_ClientSecret" prompt="RESTClient_ClientSecret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_qkQtIo7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_username" prompt="RESTClient_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_qkQtI47xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_password" prompt="RESTClient_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_qkQtJI7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_grant_type" prompt="RESTClient_grant_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_qkQtJY7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="CompositeRequestURL" prompt="CompositeRequestURL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HXaJAJhhEeyeVq26qFjPCg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_sIOaQI7xEeyIZOQNqrYhJA">
+    <contextParameter comment="" name="RESTClient_URL" prompt="RESTClient_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://test.salesforce.com/services/oauth2/token&quot;" xmi:id="_sIOaQY7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_ClientId" prompt="RESTClient_ClientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;3MVG9LzKxa43zqdKJV3z8BUWwawpz.Bl6XE4P5Q1zlgqMPF9SkAvfpK9cLiyVbRImAvtr_pgr8AbM.V3U6Xz_&quot;" xmi:id="_sIOaQo7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_ClientSecret" prompt="RESTClient_ClientSecret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;B8937F2F5335E426A8DE8A6B975C1473B0ECB4C5FD67E84B4A484FA778506AB1&quot;" xmi:id="_sIOaQ47xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_username" prompt="RESTClient_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;sf-api@groupe-atlantic.co.uk.ga.gaukmndev&quot;" xmi:id="_sIOaRI7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_password" prompt="RESTClient_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Talend@20220518Yds6HUCJhFBUmy20ysTsUYsP&quot;" xmi:id="_sIOaRY7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_grant_type" prompt="RESTClient_grant_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;password&quot;" xmi:id="_sIOaRo7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="CompositeRequestURL" prompt="CompositeRequestURL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk--GAUKMNDEV.sandbox.my.salesforce.com/services/data/v53.0/composite&quot;" xmi:id="_HXaJAZhhEeyeVq26qFjPCg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QA" xmi:id="_sIOaTo7xEeyIZOQNqrYhJA">
+    <contextParameter comment="" name="RESTClient_URL" prompt="RESTClient_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://test.salesforce.com/services/oauth2/token&quot;" xmi:id="_sIOaT47xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_ClientId" prompt="RESTClient_ClientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;3MVG97srI77Z1g79JY83VwgQk7W.suKfAFAasDVay_lOt5JNDLJhupXa3qcc40Jn9BwQd4NEfNnmIET1_KRiS&quot;" xmi:id="_sIOaUI7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_ClientSecret" prompt="RESTClient_ClientSecret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;04C292568A6ED90373C0239ED37E31FA3C9FAD143DC2FC25D700DCA6189D27F4&quot;" xmi:id="_sIOaUY7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_username" prompt="RESTClient_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;srvtld-api@groupe-atlantic.co.uk.gaukqas&quot;" xmi:id="_sIOaUo7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_password" prompt="RESTClient_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Talend@20220519LO8WPWl9AK41VtQo4D1ce8AZ&quot;" xmi:id="_sIOaU47xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_grant_type" prompt="RESTClient_grant_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;password&quot;" xmi:id="_sIOaVI7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="CompositeRequestURL" prompt="CompositeRequestURL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk--GAUKQAS.sandbox.my.salesforce.com/services/data/v53.0/composite&quot;" xmi:id="_HXaJAphhEeyeVq26qFjPCg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_sIOaR47xEeyIZOQNqrYhJA">
+    <contextParameter comment="" name="RESTClient_URL" prompt="RESTClient_URL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://login.salesforce.com/services/oauth2/token&quot;" xmi:id="_sIOaSI7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_ClientId" prompt="RESTClient_ClientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;3MVG9I5UQ_0k_hTmZfUdM5m7c_Ncvmjkpyc5YkkLRiwslUWrIn9o0sAIuDKWeVl24UOeSy2t47oTH9pcKZf8v&quot;" xmi:id="_sIOaSY7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_ClientSecret" prompt="RESTClient_ClientSecret?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;15262E29E265AC72F122BCFAFE409FD545C5FCE3023ABA6DB85D363F6864A038&quot;" xmi:id="_sIOaSo7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_username" prompt="RESTClient_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;srvtld-api@groupe-atlantic.co.uk&quot;" xmi:id="_sIOaS47xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_password" prompt="RESTClient_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;PicainweakdogsM@5&lt;Zh7Foh80ztAQfK2D7lu52j7aI&quot;" xmi:id="_sIOaTI7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="RESTClient_grant_type" prompt="RESTClient_grant_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;password&quot;" xmi:id="_sIOaTY7xEeyIZOQNqrYhJA"/>
+    <contextParameter comment="" name="CompositeRequestURL" prompt="CompositeRequestURL?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://gauk.my.salesforce.com/services/data/v53.0/composite&quot;" xmi:id="_HXawEJhhEeyeVq26qFjPCg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_33d261f6-0f03-4393-8d22-fed68b8456a4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>t+aSv2V6ZOYKKT8YjAOP8BunAYlhZ4N7h0btWN7CE2LdMDPGW7YZTritypeww2CUXiDuAqA+cc1Z&#13;
+O3j6dR2EUA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_56cceb60-2457-4ac2-95e0-b2c8c2fd7771"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Dr/S/WC/aHoBizAqZaoUz7JAcYfTESTqpLlDE349rd9aYG+yMNdSlCwnWmiQuIhz6e0TsBdp4LYO&#13;
+EVGgxkqcRg==</DigestValue></Reference></SignedInfo><SignatureValue>Zrzh+s1feYWuRnjNVhzViMs1mbGo2wh4MDfKrEBmfrcyVrT9r8WHaV+gyxvRQvhhyYNn1Pvwg3We&#13;
+CUo5INC0TUlgqg93gl3xt0la/cicG+aQRNF1N2IncZftpeW4DkR0yLnP/0TOQxNOil+TQbgBe9XY&#13;
+VMC/QZE9vSCtJu0ws8wX0JnKdGVJg4SGoXPgZyPQVG6xPzrq0LFXd7o8hpRTB/xwHJwRj6nxLn7Q&#13;
+mNg97RS39gh9Vdi+Aamuwfah3C4bYZR1zMbj+Cm2t2wuAG49Bdl0Gokvd9wOaWT0tZAcRuxlURri&#13;
+G5Vg/GzLLRZZyCHfPHzKw64+QEB7/trgRcHHww==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_56cceb60-2457-4ac2-95e0-b2c8c2fd7771" Target="#_33d261f6-0f03-4393-8d22-fed68b8456a4"><Timestamp>2025-10-06 11:05:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
